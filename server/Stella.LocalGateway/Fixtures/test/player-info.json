@@ -1,0 +1,50 @@
+{
+  "Acc": {
+    "Id": "10001",
+    "NickName": "本地测试角色",
+    "HeadIcon": 101,
+    "SkinId": 10301,
+    "TitlePrefix": 1,
+    "TitleSuffix": 2,
+    "Chars": [
+      { "CharId": 103, "Level": 1, "Skin": 10301 },
+      { "CharId": 111, "Level": 1, "Skin": 11101 },
+      { "CharId": 112, "Level": 1, "Skin": 11201 }
+    ],
+    "Newbies": [
+      { "GroupId": 1, "StepId": -1 },
+      { "GroupId": 2, "StepId": -1 },
+      { "GroupId": 3, "StepId": -1 }
+    ]
+  },
+  "Res": [{ "Tid": 4, "Qty": 999999 }],
+  "Titles": [{ "TitleId": 1 }, { "TitleId": 2 }],
+  "Chars": [
+    { "Tid": 103, "Level": 1, "Skin": 10301, "SkillLvs": [1, 1, 1, 1], "CharGemPresets": {} },
+    { "Tid": 111, "Level": 1, "Skin": 11101, "SkillLvs": [1, 1, 1, 1], "CharGemPresets": {} },
+    { "Tid": 112, "Level": 1, "Skin": 11201, "SkillLvs": [1, 1, 1, 1], "CharGemPresets": {} }
+  ],
+  "Formation": {
+    "Info": [{ "Number": 1, "CharIds": [103, 112, 111] }]
+  },
+  "Energy": {
+    "Energy": { "Primary": 100 }
+  },
+  "Board": [410301],
+  "Handbook": [{ "Type": 1, "Data": "AAAAAAAAAAE=" }],
+  "WorldClass": { "Cur": 1 },
+  "Quests": { "List": [] },
+  "State": {
+    "Achievement": {},
+    "BattlePass": {},
+    "FriendEnergy": {},
+    "Mail": {},
+    "MallPackage": {},
+    "StarTowerBook": {},
+    "TraceHunt": {},
+    "WorldClassReward": {}
+  },
+  "HuntPermit": {},
+  "TraceRequest": {},
+  "Phone": {}
+}

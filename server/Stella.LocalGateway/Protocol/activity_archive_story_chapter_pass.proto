@@ -1,0 +1,11 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+import "activity_story_settle.proto";
+
+message ActivityArchiveStoryChapterPassReq {
+  uint32 ChapterId = 1;
+  bytes NextPackage = 2047;
+}

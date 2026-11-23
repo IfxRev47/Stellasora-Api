@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <NoDefaultLaunchSettingsFile>True</NoDefaultLaunchSettingsFile>
+    <UserSecretsId>Stella.LocalGateway-c12bbd86-496f-42d5-bc7a-76b28cabae80</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protocol/friend*.proto;Protocol/dorm_friend_list.proto" ProtoRoot="Protocol" GrpcServices="None" />
+    <Protobuf Include="Protocol/player_name_edit.proto;Protocol/player_headicon_set.proto;Protocol/player_head_info.proto;Protocol/player_signature_edit.proto;Protocol/player_chars_show.proto;Protocol/player_skin_show.proto;Protocol/mail_recv.proto;Protocol/mail_remove.proto;Protocol/mail_pin.proto" ProtoRoot="Protocol" GrpcServices="None" />
+    <Content Include="Persistence/extensions.sql" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Update="Fixtures/catalog.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <PackageReference Include="Google.Protobuf" Version="3.35.0" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="11.0.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.85.0" PrivateAssets="all" />
+    <Protobuf Include="Protocol/meta.proto;Protocol/public.proto;Protocol/public_dorm.proto;Protocol/ike.proto;Protocol/player_login.proto;Protocol/player_data.proto;Protocol/player_ping.proto;Protocol/guide_mission_info.proto;Protocol/phone_contacts_info.proto;Protocol/score_boss_info.proto;Protocol/mall_package_list.proto;Protocol/traveler_duel_rank_upload.proto;Protocol/public_star_tower.proto;Protocol/potential_preselection_list.proto;Protocol/public_soldier.proto"
+              ProtoRoot="Protocol" GrpcServices="None" />
+    <Protobuf Include="Protocol/public_joint_drill.proto;Protocol/activity_detail.proto;Protocol/gacha_information.proto;Protocol/gacha_newbie_info.proto"
+              ProtoRoot="Protocol" GrpcServices="None" />
+    <Protobuf Include="Protocol/player_reg.proto;Protocol/player_board.proto;Protocol/npc_affinity_book_get.proto;Protocol/tower_growth_detail.proto"
+              ProtoRoot="Protocol" GrpcServices="None" />
+    <None Update="Fixtures/common/config"
+          CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Update="Fixtures/meta/serverlist.json;Fixtures/test/player-info.json;Fixtures/test/account.json"
+             CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

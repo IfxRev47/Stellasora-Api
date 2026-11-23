@@ -1,0 +1,11 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message QuestDormRewardReceiveSucceedAck {
+  .proto.ChangeInfo change_info = 1;
+  .proto.UI32V TaskGroup = 2;
+  bytes NextPackage = 2047;
+}

@@ -1,0 +1,56 @@
+# Local state and secrets
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+**/secrets.json
+**/Data/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.log
+*.pcap
+*.pcapng
+*.mitm
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+work/
+.local/
+# Build and IDE state
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/build/
+**/.gradle/
+**/.cxx/
+**/.externalNativeBuild/
+**/.idea/
+**/.vs/
+**/__pycache__/
+*.pyc
+**/local.properties
+# Original game inputs and generated analysis
+assets/
+cs/
+lib/
+dumpmem/
+out/
+reverse/inputs/
+reverse/output/*
+!reverse/output/protocol/
+reverse/output/protocol/*
+!reverse/output/protocol/protocols.json
+*.apk
+*.so
+*.dll
+*.a
+*.i64
+# Third-party local analysis/build dependencies
+xposed/app/src/main/cpp/Dobby/dobby.h
+reverse/tools/lua/*.jar
+.DS_Store

@@ -1,0 +1,14 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message TraceHuntApplyReq {
+  uint64 OwnerUID = 1;
+  uint32 BossID = 2;
+  .proto.UseBuild Build = 3;
+  int64 BossCreateTime = 4;
+  uint32 Difficulty = 5;
+  bytes NextPackage = 2047;
+}

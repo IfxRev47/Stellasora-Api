@@ -1,0 +1,12 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message SoldierSeasonRewardReceiveResp {
+  repeated .proto.ItemTpl Rewards = 1;
+  .proto.ChangeInfo Change = 2;
+  uint32 CurRewardLv = 3;
+  bytes NextPackage = 2047;
+}

@@ -1,0 +1,85 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package pb;
+
+enum Platform {
+  All = 0;
+  Ios = 1;
+  Android = 2;
+  PC = 3;
+  Harmonyos = 4;
+}
+
+enum OP {
+  Eq = 0;
+  Lt = 1;
+  Gt = 2;
+  Le = 3;
+  Ge = 4;
+}
+
+enum Action {
+  Redirect = 0;
+  Download = 1;
+}
+
+message ServerListMeta {
+  int64 Version = 1;
+  repeated .pb.ServerAgent Agent = 2;
+  int32 Status = 3;
+  string Message = 4;
+  string ReportEndpoint = 6;
+  repeated .pb.Rule Rules = 7;
+}
+
+message ServerAgent {
+  string Name = 1;
+  string Addr = 2;
+  int32 Status = 3;
+  int64 Zone = 4;
+}
+
+message ClientDiff {
+  repeated .pb.FileDiff Diff = 1;
+}
+
+message FileDiff {
+  string FileName = 1;
+  string Hash = 2;
+  int64 Version = 3;
+  string AdditionalPath = 4;
+}
+
+message FileDiffList {
+  map<string, .pb.ClientDiff> DiffList = 1;
+}
+
+message Rule {
+  .pb.Platform Platform = 1;
+  string Channel = 2;
+  string Version = 3;
+  .pb.OP Op = 4;
+  .pb.Action Action = 5;
+  string Url = 6;
+  bool Enable = 7;
+}
+
+message NoticeItem {
+  uint64 Id = 1;
+  string Title = 2;
+  string ContentUrl = 3;
+  repeated uint32 Channel = 4;
+  string QuestId = 5;
+  int64 EndTime = 6;
+  int64 Sort = 7;
+}
+
+message NoticeList {
+  repeated .pb.NoticeType List = 1;
+}
+
+message NoticeType {
+  string Name = 1;
+  repeated .pb.NoticeItem Detail = 2;
+}

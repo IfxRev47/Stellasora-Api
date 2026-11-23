@@ -1,0 +1,8199 @@
+[
+  {
+    "id": -10059,
+    "name": "handbook_complete_notify",
+    "message": "proto.GmHandbookCompleteNotify",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10058,
+    "name": "clear_all_activity_mathParkour_levels_notify",
+    "message": "proto.GmClearAllActivityMathParkourLevelsNotify",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10057,
+    "name": "clear_all_activity_iceCream_levels_notify",
+    "message": "proto.GmClearAllActivityIceCreamLevelsNotify",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10056,
+    "name": "sd_soldier_effect_notify",
+    "message": "proto.SoldierEffectNtf",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10055,
+    "name": "sd_soldier_info_notify",
+    "message": "proto.SoldierInfo",
+    "file": "public_soldier.proto",
+    "fields": 7
+  },
+  {
+    "id": -10054,
+    "name": "sd_shop_data_notify",
+    "message": "proto.ShopCaseData",
+    "file": "public_soldier.proto",
+    "fields": 12
+  },
+  {
+    "id": -10053,
+    "name": "sd_item_change_notify",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": -10052,
+    "name": "sd_buff_notify",
+    "message": "proto.SoldierBuff",
+    "file": "public_soldier.proto",
+    "fields": 6
+  },
+  {
+    "id": -10051,
+    "name": "clear_all_activity_golden_spy_levels_notify",
+    "message": "proto.ActivityGDS",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": -10050,
+    "name": "clear_all_activity_breakout_levels_notify",
+    "message": "proto.Milkout",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": -10049,
+    "name": "clear_story_set_notify",
+    "message": "proto.StorySetInfoResp",
+    "file": "story_set_info.proto",
+    "fields": 2
+  },
+  {
+    "id": -10048,
+    "name": "unlock_activity_story_notify",
+    "message": "proto.ActivityHistoryStoryChapter",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": -10047,
+    "name": "assist_add_build_notify",
+    "message": "proto.AssistAddBuildNotify",
+    "file": "notify_gm.proto",
+    "fields": 4
+  },
+  {
+    "id": -10046,
+    "name": "clear_all_activity_levels_notify",
+    "message": "proto.GmClearAllActivityLevelsNotify",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10045,
+    "name": "clear_all_activity_avg_notify",
+    "message": "proto.GmClearAllActivityAvgNotify",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10044,
+    "name": "vs_add_fate_card_notify",
+    "message": "proto.CardInfo",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": -10043,
+    "name": "char_gems_import_notify",
+    "message": "proto.GmImportCharGemsNotify",
+    "file": "notify_gm.proto",
+    "fields": 4
+  },
+  {
+    "id": -10042,
+    "name": "char_gems_export_notify",
+    "message": "proto.String",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": -10040,
+    "name": "clear_all_char_gem_instance_notify",
+    "message": "proto.GmClearAllCharGemInstance",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10039,
+    "name": "change_npc_affinity_notify",
+    "message": "proto.NPCAffinityInfo",
+    "file": "public_star_tower.proto",
+    "fields": 3
+  },
+  {
+    "id": -10038,
+    "name": "tower_change_sub_note_skill_notify",
+    "message": "proto.TowerChangeData",
+    "file": "public_star_tower.proto",
+    "fields": 3
+  },
+  {
+    "id": -10037,
+    "name": "world_class_quest_complete_notify",
+    "message": "proto.Quests",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": -10036,
+    "name": "score_boss_level_reset_notify",
+    "message": "proto.ScoreBossInfo",
+    "file": "score_boss_info.proto",
+    "fields": 6
+  },
+  {
+    "id": -10035,
+    "name": "score_boss_star_reward_reset_notify",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": -10034,
+    "name": "char_up_change_notify",
+    "message": "proto.GmCharUpNotify",
+    "file": "notify_gm.proto",
+    "fields": 3
+  },
+  {
+    "id": -10033,
+    "name": "tower_growth_node_change_notify",
+    "message": "proto.GmTowerGrowthNodesNotify",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10032,
+    "name": "st_harmony_skill_notify",
+    "message": "proto.GmHarmonySkillNotify",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10031,
+    "name": "clear_all_story_notify",
+    "message": "proto.GmStory",
+    "file": "notify_gm.proto",
+    "fields": 4
+  },
+  {
+    "id": -10030,
+    "name": "story_complete_notify",
+    "message": "proto.GmStory",
+    "file": "notify_gm.proto",
+    "fields": 4
+  },
+  {
+    "id": -10029,
+    "name": "infinity_tower_skip_floor_notify",
+    "message": "proto.InfinityTowerLevelInfo",
+    "file": "public.proto",
+    "fields": 4
+  },
+  {
+    "id": -10028,
+    "name": "infinity_tower_all_infos_notify",
+    "message": "proto.GmAllInfinityTowerInfos",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10027,
+    "name": "clear_all_equipment_instance_notify",
+    "message": "proto.GmClearAllEquipmentInstance",
+    "file": "notify_gm.proto",
+    "fields": 3
+  },
+  {
+    "id": -10026,
+    "name": "st_import_build_notify",
+    "message": "proto.StarTowerBuildInfo",
+    "file": "public_star_tower.proto",
+    "fields": 4
+  },
+  {
+    "id": -10025,
+    "name": "st_export_build_notify",
+    "message": "proto.String",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": -10024,
+    "name": "st_add_new_case_notify",
+    "message": "proto.StarTowerRoomCase",
+    "file": "public_star_tower.proto",
+    "fields": 13
+  },
+  {
+    "id": -10023,
+    "name": "st_add_team_exp_notify",
+    "message": "proto.STAddTeamExpNtf",
+    "file": "notify_gm.proto",
+    "fields": 4
+  },
+  {
+    "id": -10022,
+    "name": "st_skip_floor_notify",
+    "message": "proto.StarTowerInfo",
+    "file": "public_star_tower.proto",
+    "fields": 4
+  },
+  {
+    "id": -10021,
+    "name": "st_clear_all_star_tower_notify",
+    "message": "proto.GmSTClearAllStarTower",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10020,
+    "name": "st_items_change_notify",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": -10019,
+    "name": "char_affinity_final_notify",
+    "message": "proto.CharAffinity",
+    "file": "notify_gm.proto",
+    "fields": 3
+  },
+  {
+    "id": -10018,
+    "name": "clear_all_skill_instance_notify",
+    "message": "proto.GmClearAllSkillInstance",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10017,
+    "name": "disc_reset_notify",
+    "message": "proto.Disc",
+    "file": "public.proto",
+    "fields": 9
+  },
+  {
+    "id": -10016,
+    "name": "clear_all_traveler_due_notify",
+    "message": "proto.GmClearAllTravelerDue",
+    "file": "notify_gm.proto",
+    "fields": 3
+  },
+  {
+    "id": -10015,
+    "name": "clear_all_region_boss_level_notify",
+    "message": "proto.GmClearAllRegionBossLevel",
+    "file": "notify_gm.proto",
+    "fields": 3
+  },
+  {
+    "id": -10014,
+    "name": "clear_all_week_boss_notify",
+    "message": "proto.WeekBossLevels",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10013,
+    "name": "clear_all_daily_instance_notify",
+    "message": "proto.GmClearAllDailyInstance",
+    "file": "notify_gm.proto",
+    "fields": 3
+  },
+  {
+    "id": -10012,
+    "name": "refresh_agent_notify",
+    "message": "proto.AgentInfos",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10011,
+    "name": "star_tower_sub_note_skill_info_notify",
+    "message": "proto.StarTowerSubNoteSkillInfo",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10010,
+    "name": "vampire_survivor_talent_node_notify",
+    "message": "proto.VampireTalentDetailResp",
+    "file": "vampire_talent_detail.proto",
+    "fields": 5
+  },
+  {
+    "id": -10009,
+    "name": "add_vampire_season_score_notify",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": -10008,
+    "name": "clear_all_vampire_survivor_notify",
+    "message": "proto.GmClearAllVampireSurvivor",
+    "file": "notify_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10007,
+    "name": "region_boss_level_final_notify",
+    "message": "proto.RegionBossLevel",
+    "file": "public.proto",
+    "fields": 6
+  },
+  {
+    "id": -10006,
+    "name": "chars_final_notify",
+    "message": "proto.Chars",
+    "file": "pubilc_gm.proto",
+    "fields": 2
+  },
+  {
+    "id": -10005,
+    "name": "world_class_number_notify",
+    "message": "proto.GmWorldClass",
+    "file": "notify_gm.proto",
+    "fields": 5
+  },
+  {
+    "id": -10004,
+    "name": "char_change_notify",
+    "message": "proto.Char",
+    "file": "public.proto",
+    "fields": 22
+  },
+  {
+    "id": -10003,
+    "name": "char_reset_notify",
+    "message": "proto.Char",
+    "file": "public.proto",
+    "fields": 22
+  },
+  {
+    "id": -10001,
+    "name": "items_change_notify",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": -3,
+    "name": "sudo_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": -2,
+    "name": "sudo_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": -1,
+    "name": "sudo_req",
+    "message": "proto.SudoCommand",
+    "file": "gm_sudo.proto",
+    "fields": 3
+  },
+  {
+    "id": 1,
+    "name": "ike_req",
+    "message": "proto.IKEReq",
+    "file": "ike.proto",
+    "fields": 4
+  },
+  {
+    "id": 2,
+    "name": "ike_succeed_ack",
+    "message": "proto.IKEResp",
+    "file": "ike.proto",
+    "fields": 5
+  },
+  {
+    "id": 3,
+    "name": "ike_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4,
+    "name": "player_login_req",
+    "message": "proto.LoginReq",
+    "file": "player_login.proto",
+    "fields": 10
+  },
+  {
+    "id": 5,
+    "name": "player_login_succeed_ack",
+    "message": "proto.LoginResp",
+    "file": "player_login.proto",
+    "fields": 2
+  },
+  {
+    "id": 6,
+    "name": "player_login_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1001,
+    "name": "player_data_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1002,
+    "name": "player_data_succeed_ack",
+    "message": "proto.PlayerInfo",
+    "file": "player_data.proto",
+    "fields": 55
+  },
+  {
+    "id": 1003,
+    "name": "player_data_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1004,
+    "name": "player_reg_req",
+    "message": "proto.PlayerReg",
+    "file": "player_reg.proto",
+    "fields": 3
+  },
+  {
+    "id": 1005,
+    "name": "player_reg_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1006,
+    "name": "player_name_edit_req",
+    "message": "proto.PlayerNameEditReq",
+    "file": "player_name_edit.proto",
+    "fields": 2
+  },
+  {
+    "id": 1007,
+    "name": "player_name_edit_succeed_ack",
+    "message": "proto.PlayerNameEditResp",
+    "file": "player_name_edit.proto",
+    "fields": 3
+  },
+  {
+    "id": 1008,
+    "name": "player_name_edit_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1009,
+    "name": "player_head_icon_set_req",
+    "message": "proto.PlayerHeadIconSetReq",
+    "file": "player_headicon_set.proto",
+    "fields": 2
+  },
+  {
+    "id": 1010,
+    "name": "player_head_icon_set_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1011,
+    "name": "player_head_icon_set_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1012,
+    "name": "player_ping_req",
+    "message": "proto.Ping",
+    "file": "player_ping.proto",
+    "fields": 1
+  },
+  {
+    "id": 1013,
+    "name": "player_ping_succeed_ack",
+    "message": "proto.Pong",
+    "file": "player_ping.proto",
+    "fields": 2
+  },
+  {
+    "id": 1014,
+    "name": "player_ping_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1015,
+    "name": "player_learn_req",
+    "message": "proto.NewbieInfo",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 1016,
+    "name": "player_learn_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1017,
+    "name": "player_learn_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1018,
+    "name": "player_destroy_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1019,
+    "name": "player_destroy_succeed_ack",
+    "message": "proto.PlayerDestroy",
+    "file": "player_destroy.proto",
+    "fields": 2
+  },
+  {
+    "id": 1020,
+    "name": "player_destroy_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1021,
+    "name": "player_board_set_req",
+    "message": "proto.PlayerBoardSetReq",
+    "file": "player_board.proto",
+    "fields": 2
+  },
+  {
+    "id": 1022,
+    "name": "player_board_set_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1023,
+    "name": "player_board_set_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1024,
+    "name": "player_world_class_reward_receive_req",
+    "message": "proto.PlayerWorldClassRewardReq",
+    "file": "player_world_class_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 1025,
+    "name": "player_world_class_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1026,
+    "name": "player_world_class_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1027,
+    "name": "player_signature_edit_req",
+    "message": "proto.PlayerSignatureEditReq",
+    "file": "player_signature_edit.proto",
+    "fields": 2
+  },
+  {
+    "id": 1028,
+    "name": "player_signature_edit_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1029,
+    "name": "player_signature_edit_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1030,
+    "name": "player_title_edit_req",
+    "message": "proto.PlayerTitleEditReq",
+    "file": "player_title_edit.proto",
+    "fields": 3
+  },
+  {
+    "id": 1031,
+    "name": "player_title_edit_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1032,
+    "name": "player_title_edit_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1033,
+    "name": "player_chars_show_req",
+    "message": "proto.PlayerCharsShowReq",
+    "file": "player_chars_show.proto",
+    "fields": 2
+  },
+  {
+    "id": 1034,
+    "name": "player_chars_show_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1035,
+    "name": "player_chars_show_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1036,
+    "name": "player_skin_show_req",
+    "message": "proto.PlayerSkinShowReq",
+    "file": "player_skin_show.proto",
+    "fields": 2
+  },
+  {
+    "id": 1037,
+    "name": "player_skin_show_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1038,
+    "name": "player_skin_show_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1039,
+    "name": "player_gender_edit_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1040,
+    "name": "player_gender_edit_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1041,
+    "name": "player_gender_edit_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1042,
+    "name": "player_survey_req",
+    "message": "proto.PlayerSurveyReq",
+    "file": "player_survey.proto",
+    "fields": 2
+  },
+  {
+    "id": 1043,
+    "name": "player_survey_succeed_ack",
+    "message": "proto.PlayerSurveyResp",
+    "file": "player_survey.proto",
+    "fields": 3
+  },
+  {
+    "id": 1044,
+    "name": "player_survey_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1045,
+    "name": "player_exit_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1046,
+    "name": "player_exit_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1047,
+    "name": "player_exit_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1048,
+    "name": "player_honor_edit_req",
+    "message": "proto.PlayerHonorEditReq",
+    "file": "player_honor_edit.proto",
+    "fields": 2
+  },
+  {
+    "id": 1049,
+    "name": "player_honor_edit_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1050,
+    "name": "player_honor_edit_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1051,
+    "name": "player_world_class_advance_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1052,
+    "name": "player_world_class_advance_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1053,
+    "name": "player_world_class_advance_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1054,
+    "name": "player_music_set_req",
+    "message": "proto.I64",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1055,
+    "name": "player_music_set_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1056,
+    "name": "player_music_set_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1057,
+    "name": "player_head_icon_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1058,
+    "name": "player_head_icon_info_succeed_ack",
+    "message": "proto.PlayerHeadIconInfoResp",
+    "file": "player_head_info.proto",
+    "fields": 2
+  },
+  {
+    "id": 1059,
+    "name": "player_head_icon_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1101,
+    "name": "item_use_req",
+    "message": "proto.ItemUseReq",
+    "file": "item_use.proto",
+    "fields": 3
+  },
+  {
+    "id": 1102,
+    "name": "item_use_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1103,
+    "name": "item_use_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1104,
+    "name": "gem_convert_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1105,
+    "name": "gem_convert_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1106,
+    "name": "gem_convert_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1107,
+    "name": "item_product_req",
+    "message": "proto.ItemProductReq",
+    "file": "item_product.proto",
+    "fields": 3
+  },
+  {
+    "id": 1108,
+    "name": "item_product_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1109,
+    "name": "item_product_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1110,
+    "name": "fragments_convert_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1111,
+    "name": "fragments_convert_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1112,
+    "name": "fragments_convert_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1113,
+    "name": "daily_shop_reward_receive_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1114,
+    "name": "daily_shop_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1115,
+    "name": "daily_shop_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1116,
+    "name": "item_quick_growth_req",
+    "message": "proto.ItemGrowthReq",
+    "file": "item_quick_growth.proto",
+    "fields": 2
+  },
+  {
+    "id": 1117,
+    "name": "item_quick_growth_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1118,
+    "name": "item_quick_growth_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1119,
+    "name": "daily_mall_reward_receive_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1120,
+    "name": "daily_mall_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1121,
+    "name": "daily_mall_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1201,
+    "name": "friend_list_get_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1202,
+    "name": "friend_list_get_succeed_ack",
+    "message": "proto.FriendListGetResp",
+    "file": "friend_list_get.proto",
+    "fields": 4
+  },
+  {
+    "id": 1203,
+    "name": "friend_list_get_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1204,
+    "name": "friend_uid_search_req",
+    "message": "proto.FriendUIdSearchReq",
+    "file": "friend_uid_search.proto",
+    "fields": 2
+  },
+  {
+    "id": 1205,
+    "name": "friend_uid_search_succeed_ack",
+    "message": "proto.FriendUIdSearchResp",
+    "file": "friend_uid_search.proto",
+    "fields": 2
+  },
+  {
+    "id": 1206,
+    "name": "friend_uid_search_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1207,
+    "name": "friend_name_search_req",
+    "message": "proto.FriendNameSearchReq",
+    "file": "friend_name_search.proto",
+    "fields": 2
+  },
+  {
+    "id": 1208,
+    "name": "friend_name_search_succeed_ack",
+    "message": "proto.FriendNameSearchResp",
+    "file": "friend_name_search.proto",
+    "fields": 2
+  },
+  {
+    "id": 1209,
+    "name": "friend_name_search_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1210,
+    "name": "friend_add_req",
+    "message": "proto.FriendAddReq",
+    "file": "friend_add.proto",
+    "fields": 2
+  },
+  {
+    "id": 1211,
+    "name": "friend_add_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1212,
+    "name": "friend_add_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1213,
+    "name": "friend_add_agree_req",
+    "message": "proto.FriendAddAgreeReq",
+    "file": "friend_add_agree.proto",
+    "fields": 2
+  },
+  {
+    "id": 1214,
+    "name": "friend_add_agree_succeed_ack",
+    "message": "proto.FriendAddAgreeResp",
+    "file": "friend_add_agree.proto",
+    "fields": 2
+  },
+  {
+    "id": 1215,
+    "name": "friend_add_agree_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1216,
+    "name": "friend_all_agree_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1217,
+    "name": "friend_all_agree_succeed_ack",
+    "message": "proto.FriendAllAgreeResp",
+    "file": "friend_all_agree.proto",
+    "fields": 4
+  },
+  {
+    "id": 1218,
+    "name": "friend_all_agree_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1219,
+    "name": "friend_delete_req",
+    "message": "proto.FriendDeleteReq",
+    "file": "friend_delete.proto",
+    "fields": 2
+  },
+  {
+    "id": 1220,
+    "name": "friend_delete_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1221,
+    "name": "friend_delete_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1222,
+    "name": "friend_invites_delete_req",
+    "message": "proto.FriendInvitesDeleteReq",
+    "file": "friend_invites_delete.proto",
+    "fields": 2
+  },
+  {
+    "id": 1223,
+    "name": "friend_invites_delete_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1224,
+    "name": "friend_invites_delete_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1225,
+    "name": "friend_star_set_req",
+    "message": "proto.FriendStarSetReq",
+    "file": "friend_star_set.proto",
+    "fields": 3
+  },
+  {
+    "id": 1226,
+    "name": "friend_star_set_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1227,
+    "name": "friend_star_set_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1228,
+    "name": "friend_receive_energy_req",
+    "message": "proto.FriendReceiveEnergyReq",
+    "file": "friend_receive_energy.proto",
+    "fields": 2
+  },
+  {
+    "id": 1229,
+    "name": "friend_receive_energy_succeed_ack",
+    "message": "proto.FriendReceiveEnergyResp",
+    "file": "friend_receive_energy.proto",
+    "fields": 4
+  },
+  {
+    "id": 1230,
+    "name": "friend_receive_energy_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1231,
+    "name": "friend_send_energy_req",
+    "message": "proto.FriendSendEnergyReq",
+    "file": "friend_send_energy.proto",
+    "fields": 2
+  },
+  {
+    "id": 1232,
+    "name": "friend_send_energy_succeed_ack",
+    "message": "proto.FriendSendEnergyResp",
+    "file": "friend_send_energy.proto",
+    "fields": 2
+  },
+  {
+    "id": 1233,
+    "name": "friend_send_energy_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1234,
+    "name": "friend_recommendation_get_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1235,
+    "name": "friend_recommendation_get_succeed_ack",
+    "message": "proto.FriendRecommendationGetResp",
+    "file": "friend_recommendation_get.proto",
+    "fields": 2
+  },
+  {
+    "id": 1236,
+    "name": "friend_recommendation_get_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1301,
+    "name": "tower_growth_detail_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 1302,
+    "name": "tower_growth_detail_succeed_ack",
+    "message": "proto.TowerGrowthDetailResp",
+    "file": "tower_growth_detail.proto",
+    "fields": 2
+  },
+  {
+    "id": 1303,
+    "name": "tower_growth_detail_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1304,
+    "name": "tower_growth_node_unlock_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1305,
+    "name": "tower_growth_node_unlock_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1306,
+    "name": "tower_growth_node_unlock_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1307,
+    "name": "tower_growth_group_node_unlock_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1308,
+    "name": "tower_growth_group_node_unlock_succeed_ack",
+    "message": "proto.TowerGrowthGroupNodeUnlockResp",
+    "file": "tower_growth_group_node_unlock.proto",
+    "fields": 3
+  },
+  {
+    "id": 1309,
+    "name": "tower_growth_group_node_unlock_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1401,
+    "name": "milkout_settle_req",
+    "message": "proto.MilkoutSettleReq",
+    "file": "milkout_settle.proto",
+    "fields": 11
+  },
+  {
+    "id": 1402,
+    "name": "milkout_settle_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1403,
+    "name": "milkout_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1501,
+    "name": "activity_gds_settle_req",
+    "message": "proto.ActivityGDSSettleReq",
+    "file": "activity_gds_settle.proto",
+    "fields": 8
+  },
+  {
+    "id": 1502,
+    "name": "activity_gds_settle_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1503,
+    "name": "activity_gds_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 1601,
+    "name": "activity_soldier_quest_reward_receive_req",
+    "message": "proto.ActivitySoldierQuestRewardReceiveReq",
+    "file": "activity_soldier_quest_reward_receive.proto",
+    "fields": 4
+  },
+  {
+    "id": 1602,
+    "name": "activity_soldier_quest_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 1603,
+    "name": "activity_soldier_quest_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2001,
+    "name": "player_formation_req",
+    "message": "proto.PlayerFormationReq",
+    "file": "player_formation.proto",
+    "fields": 2
+  },
+  {
+    "id": 2002,
+    "name": "player_formation_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 2003,
+    "name": "player_formation_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2301,
+    "name": "char_upgrade_req",
+    "message": "proto.CharUpgradeReq",
+    "file": "char_upgrade.proto",
+    "fields": 3
+  },
+  {
+    "id": 2302,
+    "name": "char_upgrade_succeed_ack",
+    "message": "proto.CharUpgradeResp",
+    "file": "char_upgrade.proto",
+    "fields": 4
+  },
+  {
+    "id": 2303,
+    "name": "char_upgrade_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2304,
+    "name": "char_advance_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 2305,
+    "name": "char_advance_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 2306,
+    "name": "char_advance_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2307,
+    "name": "char_skill_upgrade_req",
+    "message": "proto.CharSkillUpgradeReq",
+    "file": "char_skill_upgrade.proto",
+    "fields": 3
+  },
+  {
+    "id": 2308,
+    "name": "char_skill_upgrade_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 2309,
+    "name": "char_skill_upgrade_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2313,
+    "name": "char_advance_reward_receive_req",
+    "message": "proto.CharAdvanceRewardReceiveReq",
+    "file": "char_advance_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 2314,
+    "name": "char_advance_reward_receive_succeed_ack",
+    "message": "proto.CharAdvanceRewardReceiveResp",
+    "file": "char_advance_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 2315,
+    "name": "char_advance_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2316,
+    "name": "char_skin_set_req",
+    "message": "proto.CharSkinSetReq",
+    "file": "char_skin_set.proto",
+    "fields": 3
+  },
+  {
+    "id": 2317,
+    "name": "char_skin_set_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 2318,
+    "name": "char_skin_set_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2322,
+    "name": "char_affinity_quest_reward_receive_req",
+    "message": "proto.CharAffinityQuestRewardReceiveReq",
+    "file": "char_affinity_quset_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 2323,
+    "name": "char_affinity_quest_reward_receive_succeed_ack",
+    "message": "proto.CharAffinityQuestRewardReceiveResp",
+    "file": "char_affinity_quset_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 2324,
+    "name": "char_affinity_quest_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2325,
+    "name": "char_recruitment_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 2326,
+    "name": "char_recruitment_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 2327,
+    "name": "char_recruitment_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2328,
+    "name": "char_affinity_gift_send_req",
+    "message": "proto.CharAffinityGiftSendReq",
+    "file": "char_affinity_gift_send.proto",
+    "fields": 3
+  },
+  {
+    "id": 2329,
+    "name": "char_affinity_gift_send_succeed_ack",
+    "message": "proto.CharAffinityGiftSendResp",
+    "file": "char_affinity_gift_send.proto",
+    "fields": 4
+  },
+  {
+    "id": 2330,
+    "name": "char_affinity_gift_send_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2401,
+    "name": "char_dating_landmark_select_req",
+    "message": "proto.CharDatingLandmarkSelectReq",
+    "file": "char_dating_landmark_select.proto",
+    "fields": 3
+  },
+  {
+    "id": 2402,
+    "name": "char_dating_landmark_select_succeed_ack",
+    "message": "proto.CharDatingLandmarkSelectResp",
+    "file": "char_dating_landmark_select.proto",
+    "fields": 5
+  },
+  {
+    "id": 2403,
+    "name": "char_dating_landmark_select_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2404,
+    "name": "char_dating_gift_send_req",
+    "message": "proto.CharDatingGiftSendReq",
+    "file": "char_dating_gift_send.proto",
+    "fields": 3
+  },
+  {
+    "id": 2405,
+    "name": "char_dating_gift_send_succeed_ack",
+    "message": "proto.CharDatingGiftSendResp",
+    "file": "char_dating_gift_send.proto",
+    "fields": 4
+  },
+  {
+    "id": 2406,
+    "name": "char_dating_gift_send_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2407,
+    "name": "char_dating_event_reward_receive_req",
+    "message": "proto.CharDatingEventRewardReceiveReq",
+    "file": "char_dating_event_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 2408,
+    "name": "char_dating_event_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 2409,
+    "name": "char_dating_event_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2410,
+    "name": "char_archive_reward_receive_req",
+    "message": "proto.CharArchiveRewardReceiveReq",
+    "file": "char_archive.proto",
+    "fields": 2
+  },
+  {
+    "id": 2411,
+    "name": "char_archive_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 2412,
+    "name": "char_archive_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2413,
+    "name": "char_dating_branch_a_select_req",
+    "message": "proto.CharDatingBranchASelectReq",
+    "file": "char_dating_branch_a_select.proto",
+    "fields": 2
+  },
+  {
+    "id": 2414,
+    "name": "char_dating_branch_a_select_succeed_ack",
+    "message": "proto.CharDatingBranchASelectResp",
+    "file": "char_dating_branch_a_select.proto",
+    "fields": 3
+  },
+  {
+    "id": 2415,
+    "name": "char_dating_branch_a_select_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2416,
+    "name": "char_dating_branch_b_select_req",
+    "message": "proto.CharDatingBranchBSelectReq",
+    "file": "char_dating_branch_b_select.proto",
+    "fields": 2
+  },
+  {
+    "id": 2417,
+    "name": "char_dating_branch_b_select_succeed_ack",
+    "message": "proto.CharDatingBranchBSelectResp",
+    "file": "char_dating_branch_b_select.proto",
+    "fields": 5
+  },
+  {
+    "id": 2418,
+    "name": "char_dating_branch_b_select_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2501,
+    "name": "char_gem_generate_req",
+    "message": "proto.CharGemGenerateReq",
+    "file": "char_gem_generate.proto",
+    "fields": 3
+  },
+  {
+    "id": 2502,
+    "name": "char_gem_generate_succeed_ack",
+    "message": "proto.CharGemGenerateResp",
+    "file": "char_gem_generate.proto",
+    "fields": 3
+  },
+  {
+    "id": 2503,
+    "name": "char_gem_generate_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2504,
+    "name": "char_gem_refresh_req",
+    "message": "proto.CharGemRefreshReq",
+    "file": "char_gem_refresh.proto",
+    "fields": 5
+  },
+  {
+    "id": 2505,
+    "name": "char_gem_refresh_succeed_ack",
+    "message": "proto.CharGemRefreshResp",
+    "file": "char_gem_refresh.proto",
+    "fields": 4
+  },
+  {
+    "id": 2506,
+    "name": "char_gem_refresh_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2507,
+    "name": "char_gem_replace_attribute_req",
+    "message": "proto.CharGemReplaceAttributeReq",
+    "file": "char_gem_replace_attribute.proto",
+    "fields": 4
+  },
+  {
+    "id": 2508,
+    "name": "char_gem_replace_attribute_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 2509,
+    "name": "char_gem_replace_attribute_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2510,
+    "name": "char_gem_update_gem_lock_status_req",
+    "message": "proto.CharGemUpdateGemLockStatusReq",
+    "file": "char_gem_update_gem_lock_status.proto",
+    "fields": 5
+  },
+  {
+    "id": 2511,
+    "name": "char_gem_update_gem_lock_status_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 2512,
+    "name": "char_gem_update_gem_lock_status_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2513,
+    "name": "char_gem_use_preset_req",
+    "message": "proto.CharGemUsePresetReq",
+    "file": "char_gem_use_preset.proto",
+    "fields": 3
+  },
+  {
+    "id": 2514,
+    "name": "char_gem_use_preset_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 2515,
+    "name": "char_gem_use_preset_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2516,
+    "name": "char_gem_rename_preset_req",
+    "message": "proto.CharGemRenamePresetReq",
+    "file": "char_gem_rename_preset.proto",
+    "fields": 4
+  },
+  {
+    "id": 2517,
+    "name": "char_gem_rename_preset_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 2518,
+    "name": "char_gem_rename_preset_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2519,
+    "name": "char_gem_equip_gem_req",
+    "message": "proto.CharGemEquipGemReq",
+    "file": "char_gem_equip_gem.proto",
+    "fields": 5
+  },
+  {
+    "id": 2520,
+    "name": "char_gem_equip_gem_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 2521,
+    "name": "char_gem_equip_gem_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2522,
+    "name": "char_gem_overlock_revert_req",
+    "message": "proto.CharGemOverlockRevertReq",
+    "file": "char_gem_use_overlock_revert.proto",
+    "fields": 5
+  },
+  {
+    "id": 2523,
+    "name": "char_gem_overlock_revert_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 2524,
+    "name": "char_gem_overlock_revert_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2525,
+    "name": "char_gem_overlock_req",
+    "message": "proto.CharGemOverlockReq",
+    "file": "char_gem_use_overlock.proto",
+    "fields": 5
+  },
+  {
+    "id": 2526,
+    "name": "char_gem_overlock_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 2527,
+    "name": "char_gem_overlock_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 2601,
+    "name": "char_favorite_set_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 2602,
+    "name": "char_favorite_set_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 2603,
+    "name": "char_favorite_set_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 3119,
+    "name": "disc_strengthen_req",
+    "message": "proto.DiscStrengthenReq",
+    "file": "disc_strengthen.proto",
+    "fields": 3
+  },
+  {
+    "id": 3120,
+    "name": "disc_strengthen_succeed_ack",
+    "message": "proto.DiscStrengthenResp",
+    "file": "disc_strengthen.proto",
+    "fields": 4
+  },
+  {
+    "id": 3121,
+    "name": "disc_strengthen_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 3122,
+    "name": "disc_promote_req",
+    "message": "proto.DiscPromoteReq",
+    "file": "disc_promote.proto",
+    "fields": 2
+  },
+  {
+    "id": 3123,
+    "name": "disc_promote_succeed_ack",
+    "message": "proto.DiscPromoteResp",
+    "file": "disc_promote.proto",
+    "fields": 3
+  },
+  {
+    "id": 3124,
+    "name": "disc_promote_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 3125,
+    "name": "disc_limit_break_req",
+    "message": "proto.DiscLimitBreakReq",
+    "file": "disc_limit_break.proto",
+    "fields": 3
+  },
+  {
+    "id": 3126,
+    "name": "disc_limit_break_succeed_ack",
+    "message": "proto.DiscLimitBreakResp",
+    "file": "disc_limit_break.proto",
+    "fields": 3
+  },
+  {
+    "id": 3127,
+    "name": "disc_limit_break_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 3128,
+    "name": "disc_read_reward_receive_req",
+    "message": "proto.DiscReadRewardReceiveReq",
+    "file": "disc_read_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 3129,
+    "name": "disc_read_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 3130,
+    "name": "disc_read_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 3131,
+    "name": "disc_all_limit_break_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 3132,
+    "name": "disc_all_limit_break_succeed_ack",
+    "message": "proto.DiscAllLimitBreakResp",
+    "file": "disc_all_limit_break.proto",
+    "fields": 3
+  },
+  {
+    "id": 3133,
+    "name": "disc_all_limit_break_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 3301,
+    "name": "agent_apply_req",
+    "message": "proto.AgentApplyReq",
+    "file": "agent_apply.proto",
+    "fields": 2
+  },
+  {
+    "id": 3302,
+    "name": "agent_apply_succeed_ack",
+    "message": "proto.AgentApplyResp",
+    "file": "agent_apply.proto",
+    "fields": 2
+  },
+  {
+    "id": 3303,
+    "name": "agent_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 3304,
+    "name": "agent_give_up_req",
+    "message": "proto.AgentGiveUpReq",
+    "file": "agent_give_up.proto",
+    "fields": 2
+  },
+  {
+    "id": 3305,
+    "name": "agent_give_up_succeed_ack",
+    "message": "proto.AgentGiveUpResp",
+    "file": "agent_give_up.proto",
+    "fields": 3
+  },
+  {
+    "id": 3306,
+    "name": "agent_give_up_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 3307,
+    "name": "agent_reward_receive_req",
+    "message": "proto.AgentRewardReceiveReq",
+    "file": "agent_reward_receive.proto",
+    "fields": 2
+  },
+  {
+    "id": 3308,
+    "name": "agent_reward_receive_succeed_ack",
+    "message": "proto.AgentRewardReceiveResp",
+    "file": "agent_reward_receive.proto",
+    "fields": 5
+  },
+  {
+    "id": 3309,
+    "name": "agent_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4201,
+    "name": "quest_tour_guide_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4202,
+    "name": "quest_tour_guide_reward_receive_succeed_ack",
+    "message": "proto.TourGuideQuestRewardResp",
+    "file": "quest_tour_guide_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 4203,
+    "name": "quest_tour_guide_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4204,
+    "name": "quest_daily_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4205,
+    "name": "quest_daily_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4206,
+    "name": "quest_daily_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4207,
+    "name": "dictionary_reward_receive_req",
+    "message": "proto.DictRewardReq",
+    "file": "dictionary_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 4208,
+    "name": "dictionary_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4209,
+    "name": "dictionary_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4210,
+    "name": "quest_tower_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4211,
+    "name": "quest_tower_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4212,
+    "name": "quest_tower_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4213,
+    "name": "quest_daily_active_reward_receive_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4214,
+    "name": "quest_daily_active_reward_receive_succeed_ack",
+    "message": "proto.QuestDailyActiveRewardReceiveResp",
+    "file": "quest_daily_active_reward_recevie.proto",
+    "fields": 3
+  },
+  {
+    "id": 4215,
+    "name": "quest_daily_active_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4216,
+    "name": "quest_tour_guide_group_reward_receive_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4217,
+    "name": "quest_tour_guide_group_reward_receive_succeed_ack",
+    "message": "proto.TourGuideQuestGroupRewardResp",
+    "file": "quest_tower_guide_group_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 4218,
+    "name": "quest_tour_guide_group_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4219,
+    "name": "quest_weekly_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4220,
+    "name": "quest_weekly_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4221,
+    "name": "quest_weekly_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4222,
+    "name": "quest_weekly_active_reward_receive_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4223,
+    "name": "quest_weekly_active_reward_receive_succeed_ack",
+    "message": "proto.QuestWeeklyActiveRewardReceiveResp",
+    "file": "quest_weekly_active_reward_recevie.proto",
+    "fields": 3
+  },
+  {
+    "id": 4224,
+    "name": "quest_weekly_active_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4225,
+    "name": "quest_assist_reward_receive_req",
+    "message": "proto.AssistQuestReceiveReq",
+    "file": "quest_assist_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 4226,
+    "name": "quest_assist_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4227,
+    "name": "quest_assist_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4228,
+    "name": "quest_assist_group_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4229,
+    "name": "quest_assist_group_reward_receive_succeed_ack",
+    "message": "proto.AssistGroupRewardResp",
+    "file": "quest_assist_group_reward_receive.proto",
+    "fields": 4
+  },
+  {
+    "id": 4230,
+    "name": "quest_assist_group_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4231,
+    "name": "quest_dorm_reward_receive_req",
+    "message": "proto.UI32V",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 4232,
+    "name": "quest_dorm_reward_receive_succeed_ack",
+    "message": "proto.QuestDormRewardReceiveSucceedAck",
+    "file": "quest_dorm_reward_recevie.proto",
+    "fields": 3
+  },
+  {
+    "id": 4233,
+    "name": "quest_dorm_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4301,
+    "name": "activity_task_reward_receive_req",
+    "message": "proto.ActivityTaskRewardReceiveReq",
+    "file": "activity_task_reward_receive.proto",
+    "fields": 4
+  },
+  {
+    "id": 4302,
+    "name": "activity_task_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4303,
+    "name": "activity_task_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4304,
+    "name": "activity_task_group_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4305,
+    "name": "activity_task_group_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4306,
+    "name": "activity_task_group_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4401,
+    "name": "achievement_reward_receive_req",
+    "message": "proto.AchievementRewardReq",
+    "file": "achievement_reward_receive.proto",
+    "fields": 2
+  },
+  {
+    "id": 4402,
+    "name": "achievement_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4403,
+    "name": "achievement_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4404,
+    "name": "achievement_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4405,
+    "name": "achievement_info_succeed_ack",
+    "message": "proto.Achievements",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4406,
+    "name": "achievement_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4501,
+    "name": "infinity_tower_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4502,
+    "name": "infinity_tower_info_succeed_ack",
+    "message": "proto.InfinityTowerInfoResp",
+    "file": "infinity_tower_info.proto",
+    "fields": 4
+  },
+  {
+    "id": 4503,
+    "name": "infinity_tower_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4504,
+    "name": "infinity_tower_apply_req",
+    "message": "proto.InfinityTowerApplyReq",
+    "file": "infinity_tower_apply.proto",
+    "fields": 3
+  },
+  {
+    "id": 4505,
+    "name": "infinity_tower_apply_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4506,
+    "name": "infinity_tower_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4507,
+    "name": "infinity_tower_settle_req",
+    "message": "proto.InfinityTowerSettleReq",
+    "file": "infinity_tower_settle.proto",
+    "fields": 3
+  },
+  {
+    "id": 4508,
+    "name": "infinity_tower_settle_succeed_ack",
+    "message": "proto.InfinityTowerSettleResp",
+    "file": "infinity_tower_settle.proto",
+    "fields": 6
+  },
+  {
+    "id": 4509,
+    "name": "infinity_tower_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4510,
+    "name": "infinity_tower_daily_reward_receive_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4511,
+    "name": "infinity_tower_daily_reward_receive_succeed_ack",
+    "message": "proto.InfinityTowerDailyRewardReceiveResp",
+    "file": "infinity_tower_daily_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 4512,
+    "name": "infinity_tower_daily_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4513,
+    "name": "infinity_tower_plot_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4514,
+    "name": "infinity_tower_plot_reward_receive_succeed_ack",
+    "message": "proto.InfinityTowerPlotRewardReceiveResp",
+    "file": "infinity_tower_plot_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 4515,
+    "name": "infinity_tower_plot_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4601,
+    "name": "star_tower_apply_req",
+    "message": "proto.StarTowerApplyReq",
+    "file": "star_tower_apply.proto",
+    "fields": 9
+  },
+  {
+    "id": 4602,
+    "name": "star_tower_apply_succeed_ack",
+    "message": "proto.StarTowerApplyResp",
+    "file": "star_tower_apply.proto",
+    "fields": 10
+  },
+  {
+    "id": 4603,
+    "name": "star_tower_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4607,
+    "name": "star_tower_interact_req",
+    "message": "proto.StarTowerInteractReq",
+    "file": "star_tower_interact.proto",
+    "fields": 7
+  },
+  {
+    "id": 4608,
+    "name": "star_tower_interact_succeed_ack",
+    "message": "proto.StarTowerInteractResp",
+    "file": "star_tower_interact.proto",
+    "fields": 11
+  },
+  {
+    "id": 4609,
+    "name": "star_tower_interact_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4610,
+    "name": "star_tower_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4611,
+    "name": "star_tower_info_succeed_ack",
+    "message": "proto.StarTowerInfo",
+    "file": "public_star_tower.proto",
+    "fields": 4
+  },
+  {
+    "id": 4612,
+    "name": "star_tower_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4613,
+    "name": "star_tower_give_up_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4614,
+    "name": "star_tower_give_up_succeed_ack",
+    "message": "proto.StarTowerGiveUpResp",
+    "file": "star_tower_give_up.proto",
+    "fields": 10
+  },
+  {
+    "id": 4615,
+    "name": "star_tower_give_up_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4701,
+    "name": "star_tower_build_whether_save_req",
+    "message": "proto.StarTowerBuildWhetherSaveReq",
+    "file": "star_tower_build_whether_save.proto",
+    "fields": 6
+  },
+  {
+    "id": 4702,
+    "name": "star_tower_build_whether_save_succeed_ack",
+    "message": "proto.StarTowerBuildWhetherSaveResp",
+    "file": "star_tower_build_whether_save.proto",
+    "fields": 3
+  },
+  {
+    "id": 4703,
+    "name": "star_tower_build_whether_save_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4704,
+    "name": "star_tower_build_brief_list_get_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4705,
+    "name": "star_tower_build_brief_list_get_succeed_ack",
+    "message": "proto.StarTowerBuildBriefListGetResp",
+    "file": "star_tower_build_brief_list_get.proto",
+    "fields": 2
+  },
+  {
+    "id": 4706,
+    "name": "star_tower_build_brief_list_get_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4707,
+    "name": "star_tower_build_detail_get_req",
+    "message": "proto.StarTowerBuildDetailGetReq",
+    "file": "star_tower_build_detail_get.proto",
+    "fields": 2
+  },
+  {
+    "id": 4708,
+    "name": "star_tower_build_detail_get_succeed_ack",
+    "message": "proto.StarTowerBuildDetailGetResp",
+    "file": "star_tower_build_detail_get.proto",
+    "fields": 2
+  },
+  {
+    "id": 4709,
+    "name": "star_tower_build_detail_get_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4710,
+    "name": "star_tower_build_delete_req",
+    "message": "proto.StarTowerBuildDeleteReq",
+    "file": "star_tower_build_delete.proto",
+    "fields": 2
+  },
+  {
+    "id": 4711,
+    "name": "star_tower_build_delete_succeed_ack",
+    "message": "proto.StarTowerBuildDeleteResp",
+    "file": "star_tower_build_delete.proto",
+    "fields": 3
+  },
+  {
+    "id": 4712,
+    "name": "star_tower_build_delete_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4713,
+    "name": "star_tower_build_name_set_req",
+    "message": "proto.StarTowerBuildNameSetReq",
+    "file": "star_tower_build_name_set.proto",
+    "fields": 3
+  },
+  {
+    "id": 4714,
+    "name": "star_tower_build_name_set_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4715,
+    "name": "star_tower_build_name_set_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4716,
+    "name": "star_tower_build_lock_unlock_req",
+    "message": "proto.StarTowerBuildLockUnlockReq",
+    "file": "star_tower_build_lock_unlock.proto",
+    "fields": 3
+  },
+  {
+    "id": 4717,
+    "name": "star_tower_build_lock_unlock_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4718,
+    "name": "star_tower_build_lock_unlock_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4719,
+    "name": "star_tower_build_preference_set_req",
+    "message": "proto.StarTowerBuildPreferenceSetReq",
+    "file": "star_tower_build_preference_set.proto",
+    "fields": 3
+  },
+  {
+    "id": 4720,
+    "name": "star_tower_build_preference_set_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4721,
+    "name": "star_tower_build_preference_set_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4722,
+    "name": "potential_preselection_list_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4723,
+    "name": "potential_preselection_list_succeed_ack",
+    "message": "proto.PotentialPreselectionList",
+    "file": "potential_preselection_list.proto",
+    "fields": 2
+  },
+  {
+    "id": 4724,
+    "name": "potential_preselection_list_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4725,
+    "name": "potential_preselection_import_req",
+    "message": "proto.PotentialPreselectionImportReq",
+    "file": "potential_preselection_import.proto",
+    "fields": 4
+  },
+  {
+    "id": 4726,
+    "name": "potential_preselection_import_succeed_ack",
+    "message": "proto.PotentialPreselection",
+    "file": "public_star_tower.proto",
+    "fields": 6
+  },
+  {
+    "id": 4727,
+    "name": "potential_preselection_import_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4728,
+    "name": "potential_preselection_name_set_req",
+    "message": "proto.PotentialPreselectionNameSetReq",
+    "file": "potential_preselection_name_set.proto",
+    "fields": 3
+  },
+  {
+    "id": 4729,
+    "name": "potential_preselection_name_set_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4730,
+    "name": "potential_preselection_name_set_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4731,
+    "name": "potential_preselection_preference_set_req",
+    "message": "proto.PotentialPreselectionPreferenceSetReq",
+    "file": "potential_preselection_preference_set.proto",
+    "fields": 3
+  },
+  {
+    "id": 4732,
+    "name": "potential_preselection_preference_set_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4733,
+    "name": "potential_preselection_preference_set_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4734,
+    "name": "potential_preselection_update_req",
+    "message": "proto.PotentialPreselectionUpdateReq",
+    "file": "potential_preselection_update.proto",
+    "fields": 3
+  },
+  {
+    "id": 4735,
+    "name": "potential_preselection_update_succeed_ack",
+    "message": "proto.PotentialPreselection",
+    "file": "public_star_tower.proto",
+    "fields": 6
+  },
+  {
+    "id": 4736,
+    "name": "potential_preselection_update_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4737,
+    "name": "potential_preselection_delete_req",
+    "message": "proto.PotentialPreselectionDeleteReq",
+    "file": "potential_preselection_delete.proto",
+    "fields": 2
+  },
+  {
+    "id": 4738,
+    "name": "potential_preselection_delete_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4739,
+    "name": "potential_preselection_delete_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4740,
+    "name": "tower_vita_energy_buy_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4741,
+    "name": "tower_vita_energy_buy_succeed_ack",
+    "message": "proto.TowerVitaEnergyBuyResp",
+    "file": "tower_vita_energy_buy.proto",
+    "fields": 3
+  },
+  {
+    "id": 4742,
+    "name": "tower_vita_energy_buy_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4743,
+    "name": "tower_vita_project_list_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4744,
+    "name": "tower_vita_project_list_succeed_ack",
+    "message": "proto.TowerVitaProjectListResp",
+    "file": "tower_vita_project_list.proto",
+    "fields": 3
+  },
+  {
+    "id": 4745,
+    "name": "tower_vita_project_list_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4746,
+    "name": "tower_vita_project_update_req",
+    "message": "proto.TowerVitaProjectUpdateRep",
+    "file": "tower_vita_project_update.proto",
+    "fields": 2
+  },
+  {
+    "id": 4747,
+    "name": "tower_vita_project_update_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4748,
+    "name": "tower_vita_project_update_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4749,
+    "name": "tower_vita_project_name_update_req",
+    "message": "proto.TowerVitaProjectNameUpdateRep",
+    "file": "tower_vita_project_name_update.proto",
+    "fields": 3
+  },
+  {
+    "id": 4750,
+    "name": "tower_vita_project_name_update_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4751,
+    "name": "tower_vita_project_name_update_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4752,
+    "name": "tower_vita_project_set_req",
+    "message": "proto.TowerVitaProjectSetRep",
+    "file": "tower_vita_project_set.proto",
+    "fields": 2
+  },
+  {
+    "id": 4753,
+    "name": "tower_vita_project_set_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4754,
+    "name": "tower_vita_project_set_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4755,
+    "name": "star_tower_build_potential_modify_req",
+    "message": "proto.StarTowerBuildPotentialModifyReq",
+    "file": "star_tower_build_potential_modify.proto",
+    "fields": 3
+  },
+  {
+    "id": 4756,
+    "name": "star_tower_build_potential_modify_succeed_ack",
+    "message": "proto.StarTowerBuildPotentialModifyResp",
+    "file": "star_tower_build_potential_modify.proto",
+    "fields": 3
+  },
+  {
+    "id": 4757,
+    "name": "star_tower_build_potential_modify_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4758,
+    "name": "star_tower_build_note_modify_req",
+    "message": "proto.StarTowerBuildNoteModifyReq",
+    "file": "star_tower_build_note_modify.proto",
+    "fields": 3
+  },
+  {
+    "id": 4759,
+    "name": "star_tower_build_note_modify_succeed_ack",
+    "message": "proto.StarTowerBuildNoteModifyResp",
+    "file": "star_tower_build_note_modify.proto",
+    "fields": 3
+  },
+  {
+    "id": 4760,
+    "name": "star_tower_build_note_modify_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4761,
+    "name": "star_tower_build_generator_req",
+    "message": "proto.StarTowerBuildGeneratorReq",
+    "file": "star_tower_build_generator.proto",
+    "fields": 5
+  },
+  {
+    "id": 4762,
+    "name": "star_tower_build_generator_succeed_ack",
+    "message": "proto.StarTowerBuildPotentialModifyResp",
+    "file": "star_tower_build_potential_modify.proto",
+    "fields": 3
+  },
+  {
+    "id": 4763,
+    "name": "star_tower_build_generator_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4764,
+    "name": "star_tower_build_discard_req",
+    "message": "proto.StarTowerBuildDiscardReq",
+    "file": "star_tower_build_discard.proto",
+    "fields": 3
+  },
+  {
+    "id": 4765,
+    "name": "star_tower_build_discard_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4766,
+    "name": "star_tower_build_discard_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4801,
+    "name": "build_convert_detail_list_get_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4802,
+    "name": "build_convert_detail_list_get_succeed_ack",
+    "message": "proto.BuildConvertDetailListGetResp",
+    "file": "build_convert_detail_list_get.proto",
+    "fields": 2
+  },
+  {
+    "id": 4803,
+    "name": "build_convert_detail_list_get_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4804,
+    "name": "build_convert_submit_req",
+    "message": "proto.BuildConvertSubmitReq",
+    "file": "build_convert_submit.proto",
+    "fields": 4
+  },
+  {
+    "id": 4805,
+    "name": "build_convert_submit_succeed_ack",
+    "message": "proto.BuildConvertSubmitResp",
+    "file": "build_convert_submit.proto",
+    "fields": 4
+  },
+  {
+    "id": 4806,
+    "name": "build_convert_submit_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4807,
+    "name": "build_convert_group_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4808,
+    "name": "build_convert_group_reward_receive_succeed_ack",
+    "message": "proto.BuildConvertGroupRewardReceiveResp",
+    "file": "build_convert_group_reward_receive.proto",
+    "fields": 4
+  },
+  {
+    "id": 4809,
+    "name": "build_convert_group_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4901,
+    "name": "star_tower_book_potential_brief_list_get_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4902,
+    "name": "star_tower_book_potential_brief_list_get_succeed_ack",
+    "message": "proto.StarTowerBookPotentialBriefListResp",
+    "file": "star_tower_book_potential_brief_list_get.proto",
+    "fields": 2
+  },
+  {
+    "id": 4903,
+    "name": "star_tower_book_potential_brief_list_get_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4904,
+    "name": "star_tower_book_char_potential_get_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4905,
+    "name": "star_tower_book_char_potential_get_succeed_ack",
+    "message": "proto.StarTowerBookPotentialGetResp",
+    "file": "star_tower_book_char_potential_get.proto",
+    "fields": 3
+  },
+  {
+    "id": 4906,
+    "name": "star_tower_book_char_potential_get_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4907,
+    "name": "star_tower_book_potential_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4908,
+    "name": "star_tower_book_potential_reward_receive_succeed_ack",
+    "message": "proto.StarTowerBookPotentialRewardReceiveResp",
+    "file": "star_tower_book_potential_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 4909,
+    "name": "star_tower_book_potential_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4913,
+    "name": "star_tower_book_event_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4914,
+    "name": "star_tower_book_event_reward_receive_succeed_ack",
+    "message": "proto.StarTowerBookEventRewardReceiveResp",
+    "file": "star_tower_book_event_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 4915,
+    "name": "star_tower_book_event_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4916,
+    "name": "npc_affinity_book_get_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 4917,
+    "name": "npc_affinity_book_get_succeed_ack",
+    "message": "proto.NPCAffinityBookGetResp",
+    "file": "npc_affinity_book_get.proto",
+    "fields": 3
+  },
+  {
+    "id": 4918,
+    "name": "npc_affinity_book_get_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 4919,
+    "name": "npc_affinity_plot_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 4920,
+    "name": "npc_affinity_plot_reward_receive_succeed_ack",
+    "message": "proto.NPCAffinityPlotRewardReceiveResp",
+    "file": "npc_affinity_plot_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 4921,
+    "name": "npc_affinity_plot_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5010,
+    "name": "resident_shop_get_req",
+    "message": "proto.ResidentShopGetReq",
+    "file": "resident_shop_get.proto",
+    "fields": 2
+  },
+  {
+    "id": 5011,
+    "name": "resident_shop_get_succeed_ack",
+    "message": "proto.ResidentShopGetResp",
+    "file": "resident_shop_get.proto",
+    "fields": 2
+  },
+  {
+    "id": 5012,
+    "name": "resident_shop_get_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5013,
+    "name": "resident_shop_purchase_req",
+    "message": "proto.ResidentShopPurchaseReq",
+    "file": "resident_shop_purchase.proto",
+    "fields": 5
+  },
+  {
+    "id": 5014,
+    "name": "resident_shop_purchase_succeed_ack",
+    "message": "proto.ResidentShopPurchaseResp",
+    "file": "resident_shop_purchase.proto",
+    "fields": 5
+  },
+  {
+    "id": 5015,
+    "name": "resident_shop_purchase_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5101,
+    "name": "mall_gem_list_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5102,
+    "name": "mall_gem_list_succeed_ack",
+    "message": "proto.MallGemList",
+    "file": "mall_gem_list.proto",
+    "fields": 2
+  },
+  {
+    "id": 5103,
+    "name": "mall_gem_list_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5104,
+    "name": "mall_gem_order_req",
+    "message": "proto.String",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5105,
+    "name": "mall_gem_order_succeed_ack",
+    "message": "proto.OrderInfo",
+    "file": "mall_gem_order.proto",
+    "fields": 4
+  },
+  {
+    "id": 5106,
+    "name": "mall_gem_order_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5107,
+    "name": "mall_order_cancel_req",
+    "message": "proto.String",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5108,
+    "name": "mall_order_cancel_succeed_ack",
+    "message": "proto.String",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5109,
+    "name": "mall_order_cancel_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5110,
+    "name": "mall_order_collect_req",
+    "message": "proto.String",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5111,
+    "name": "mall_order_collect_succeed_ack",
+    "message": "proto.CollectResp",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 5112,
+    "name": "mall_order_collect_failed_ack",
+    "message": "proto.CollectResp",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 5113,
+    "name": "mall_monthlyCard_list_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5114,
+    "name": "mall_monthlyCard_list_succeed_ack",
+    "message": "proto.MallMonthlyCardList",
+    "file": "mall_monthlycard_list.proto",
+    "fields": 2
+  },
+  {
+    "id": 5115,
+    "name": "mall_monthlyCard_list_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5116,
+    "name": "mall_monthlyCard_order_req",
+    "message": "proto.String",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5117,
+    "name": "mall_monthlyCard_order_succeed_ack",
+    "message": "proto.OrderInfo",
+    "file": "mall_gem_order.proto",
+    "fields": 4
+  },
+  {
+    "id": 5118,
+    "name": "mall_monthlyCard_order_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5119,
+    "name": "mall_package_list_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5120,
+    "name": "mall_package_list_succeed_ack",
+    "message": "proto.MallPackageList",
+    "file": "mall_package_list.proto",
+    "fields": 2
+  },
+  {
+    "id": 5121,
+    "name": "mall_package_list_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5122,
+    "name": "mall_package_order_req",
+    "message": "proto.String",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5123,
+    "name": "mall_package_order_succeed_ack",
+    "message": "proto.MallPackageOrder",
+    "file": "mall_package_order.proto",
+    "fields": 3
+  },
+  {
+    "id": 5124,
+    "name": "mall_package_order_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5125,
+    "name": "mall_shop_list_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5126,
+    "name": "mall_shop_list_succeed_ack",
+    "message": "proto.MallShopProductList",
+    "file": "mall_shop_list.proto",
+    "fields": 2
+  },
+  {
+    "id": 5127,
+    "name": "mall_shop_list_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5128,
+    "name": "mall_shop_order_req",
+    "message": "proto.MallShopOrderReq",
+    "file": "mall_shop_order.proto",
+    "fields": 3
+  },
+  {
+    "id": 5129,
+    "name": "mall_shop_order_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5130,
+    "name": "mall_shop_order_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5131,
+    "name": "mall_activity_list_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5132,
+    "name": "mall_activity_list_succeed_ack",
+    "message": "proto.MallActivityList",
+    "file": "mall_activity_list.proto",
+    "fields": 2
+  },
+  {
+    "id": 5133,
+    "name": "mall_activity_list_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5134,
+    "name": "mall_activity_order_req",
+    "message": "proto.String",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5135,
+    "name": "mall_activity_order_succeed_ack",
+    "message": "proto.OrderInfo",
+    "file": "mall_gem_order.proto",
+    "fields": 4
+  },
+  {
+    "id": 5136,
+    "name": "mall_activity_order_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5201,
+    "name": "trace_hunt_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5202,
+    "name": "trace_hunt_info_succeed_ack",
+    "message": "proto.TraceHuntInfo",
+    "file": "trace_hunt_info.proto",
+    "fields": 13
+  },
+  {
+    "id": 5203,
+    "name": "trace_hunt_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5204,
+    "name": "trace_hunt_apply_req",
+    "message": "proto.TraceHuntApplyReq",
+    "file": "trace_hunt_apply.proto",
+    "fields": 6
+  },
+  {
+    "id": 5205,
+    "name": "trace_hunt_apply_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5206,
+    "name": "trace_hunt_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5207,
+    "name": "trace_hunt_settle_req",
+    "message": "proto.TraceHuntSettleReq",
+    "file": "trace_hunt_settle.proto",
+    "fields": 4
+  },
+  {
+    "id": 5208,
+    "name": "trace_hunt_settle_succeed_ack",
+    "message": "proto.TraceHuntSettleResp",
+    "file": "trace_hunt_settle.proto",
+    "fields": 7
+  },
+  {
+    "id": 5209,
+    "name": "trace_hunt_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5210,
+    "name": "trace_hunt_recommend_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5211,
+    "name": "trace_hunt_recommend_succeed_ack",
+    "message": "proto.TraceHuntRecommendResp",
+    "file": "trace_hunt_recommend.proto",
+    "fields": 2
+  },
+  {
+    "id": 5212,
+    "name": "trace_hunt_recommend_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5213,
+    "name": "trace_hunt_boss_reward_receive_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5214,
+    "name": "trace_hunt_boss_reward_receive_succeed_ack",
+    "message": "proto.TraceHuntBossRewardReceiveResp",
+    "file": "trace_hunt_boss_reward_receive.proto",
+    "fields": 4
+  },
+  {
+    "id": 5215,
+    "name": "trace_hunt_boss_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5216,
+    "name": "trace_hunt_trace_req",
+    "message": "proto.I32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5217,
+    "name": "trace_hunt_trace_succeed_ack",
+    "message": "proto.TraceHuntTraceResp",
+    "file": "trace_hunt_trace.proto",
+    "fields": 4
+  },
+  {
+    "id": 5218,
+    "name": "trace_hunt_trace_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5301,
+    "name": "soldier_apply_req",
+    "message": "proto.SoldierApplyReq",
+    "file": "soldier_apply.proto",
+    "fields": 3
+  },
+  {
+    "id": 5302,
+    "name": "soldier_apply_succeed_ack",
+    "message": "proto.SoldierApplyResp",
+    "file": "soldier_apply.proto",
+    "fields": 5
+  },
+  {
+    "id": 5303,
+    "name": "soldier_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5304,
+    "name": "soldier_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5305,
+    "name": "soldier_info_succeed_ack",
+    "message": "proto.SoldierInfo",
+    "file": "public_soldier.proto",
+    "fields": 7
+  },
+  {
+    "id": 5306,
+    "name": "soldier_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5307,
+    "name": "soldier_interact_req",
+    "message": "proto.SoldierInteractReq",
+    "file": "soldier_interact.proto",
+    "fields": 13
+  },
+  {
+    "id": 5308,
+    "name": "soldier_interact_succeed_ack",
+    "message": "proto.SoldierInteractResp",
+    "file": "soldier_interact.proto",
+    "fields": 18
+  },
+  {
+    "id": 5309,
+    "name": "soldier_interact_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5310,
+    "name": "soldier_give_up_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5311,
+    "name": "soldier_give_up_succeed_ack",
+    "message": "proto.SoldierSettleDataResp",
+    "file": "public_soldier.proto",
+    "fields": 15
+  },
+  {
+    "id": 5312,
+    "name": "soldier_give_up_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5313,
+    "name": "soldier_step_out_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5314,
+    "name": "soldier_step_out_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5315,
+    "name": "soldier_step_out_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5316,
+    "name": "soldier_partner_trace_req",
+    "message": "proto.SoldierPartnerTraceReq",
+    "file": "soldier_partner_trace.proto",
+    "fields": 3
+  },
+  {
+    "id": 5317,
+    "name": "soldier_partner_trace_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5318,
+    "name": "soldier_partner_trace_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5319,
+    "name": "soldier_season_info_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5320,
+    "name": "soldier_season_info_succeed_ack",
+    "message": "proto.SoldierSeasonInfo",
+    "file": "public_soldier.proto",
+    "fields": 8
+  },
+  {
+    "id": 5321,
+    "name": "soldier_season_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5322,
+    "name": "soldier_season_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5323,
+    "name": "soldier_season_reward_receive_succeed_ack",
+    "message": "proto.SoldierSeasonRewardReceiveResp",
+    "file": "soldier_season_reward_receive.proto",
+    "fields": 4
+  },
+  {
+    "id": 5324,
+    "name": "soldier_season_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5325,
+    "name": "soldier_learn_req",
+    "message": "proto.SoldierLearnReq",
+    "file": "soldier_learn.proto",
+    "fields": 4
+  },
+  {
+    "id": 5326,
+    "name": "soldier_learn_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5327,
+    "name": "soldier_learn_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5401,
+    "name": "soldier_technology_info_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5402,
+    "name": "soldier_technology_info_succeed_ack",
+    "message": "proto.Bytes",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5403,
+    "name": "soldier_technology_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5404,
+    "name": "soldier_technology_node_unlock_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5405,
+    "name": "soldier_technology_node_unlock_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5406,
+    "name": "soldier_technology_node_unlock_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5407,
+    "name": "soldier_battle_report_favorite_req",
+    "message": "proto.String",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5408,
+    "name": "soldier_battle_report_favorite_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5409,
+    "name": "soldier_battle_report_favorite_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5410,
+    "name": "soldier_battle_report_unfavorite_req",
+    "message": "proto.String",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 5411,
+    "name": "soldier_battle_report_unfavorite_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5412,
+    "name": "soldier_battle_report_unfavorite_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5413,
+    "name": "soldier_battle_report_favorite_list_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5414,
+    "name": "soldier_battle_report_favorite_list_succeed_ack",
+    "message": "proto.SoldierBattleReportFavoriteList",
+    "file": "soldier_battle_report_favorite_list.proto",
+    "fields": 2
+  },
+  {
+    "id": 5415,
+    "name": "soldier_battle_report_favorite_list_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 5416,
+    "name": "soldier_battle_report_recent_list_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 5417,
+    "name": "soldier_battle_report_recent_list_succeed_ack",
+    "message": "proto.SoldierBattleReportRecentList",
+    "file": "soldier_battle_report_recent_list.proto",
+    "fields": 2
+  },
+  {
+    "id": 5418,
+    "name": "soldier_battle_report_recent_list_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6001,
+    "name": "gacha_spin_req",
+    "message": "proto.GachaSpinReq",
+    "file": "gacha_spin.proto",
+    "fields": 4
+  },
+  {
+    "id": 6002,
+    "name": "gacha_spin_succeed_ack",
+    "message": "proto.GachaSpinResp",
+    "file": "gacha_spin.proto",
+    "fields": 10
+  },
+  {
+    "id": 6003,
+    "name": "gacha_spin_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6004,
+    "name": "gacha_information_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6005,
+    "name": "gacha_information_succeed_ack",
+    "message": "proto.GachaInformationResp",
+    "file": "gacha_information.proto",
+    "fields": 2
+  },
+  {
+    "id": 6006,
+    "name": "gacha_information_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6007,
+    "name": "gacha_histories_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 6008,
+    "name": "gacha_histories_succeed_ack",
+    "message": "proto.GachaHistories",
+    "file": "gacha_histories.proto",
+    "fields": 2
+  },
+  {
+    "id": 6009,
+    "name": "gacha_histories_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6010,
+    "name": "gacha_guarantee_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 6011,
+    "name": "gacha_guarantee_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 6012,
+    "name": "gacha_guarantee_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6013,
+    "name": "gacha_newbie_spin_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 6014,
+    "name": "gacha_newbie_spin_succeed_ack",
+    "message": "proto.GachaNewbieSpinResp",
+    "file": "gacha_newbie_spin.proto",
+    "fields": 2
+  },
+  {
+    "id": 6015,
+    "name": "gacha_newbie_spin_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6016,
+    "name": "gacha_newbie_save_req",
+    "message": "proto.GachaNewbieSaveReq",
+    "file": "gacha_newbie_save.proto",
+    "fields": 3
+  },
+  {
+    "id": 6017,
+    "name": "gacha_newbie_save_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6018,
+    "name": "gacha_newbie_save_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6019,
+    "name": "gacha_newbie_obtain_req",
+    "message": "proto.GachaNewbieObtainReq",
+    "file": "gacha_newbie_obtain.proto",
+    "fields": 3
+  },
+  {
+    "id": 6020,
+    "name": "gacha_newbie_obtain_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 6021,
+    "name": "gacha_newbie_obtain_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6022,
+    "name": "gacha_newbie_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6023,
+    "name": "gacha_newbie_info_succeed_ack",
+    "message": "proto.GachaNewbieInfoResp",
+    "file": "gacha_newbie_info.proto",
+    "fields": 2
+  },
+  {
+    "id": 6024,
+    "name": "gacha_newbie_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6025,
+    "name": "gacha_spin_sync_ack",
+    "message": "proto.GachaSpinSyncResp",
+    "file": "gacha_spin.proto",
+    "fields": 3
+  },
+  {
+    "id": 6026,
+    "name": "gacha_reward_get_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 6027,
+    "name": "gacha_reward_get_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 6028,
+    "name": "gacha_reward_get_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6101,
+    "name": "tower_book_fate_card_detail_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6102,
+    "name": "tower_book_fate_card_detail_succeed_ack",
+    "message": "proto.TowerBookFateCardDetailResp",
+    "file": "tower_book_fate_card_detail.proto",
+    "fields": 3
+  },
+  {
+    "id": 6103,
+    "name": "tower_book_fate_card_detail_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6104,
+    "name": "tower_book_fate_card_reward_receive_req",
+    "message": "proto.TowerBookFateCardRewardReq",
+    "file": "tower_book_fate_card_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 6105,
+    "name": "tower_book_fate_card_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 6106,
+    "name": "tower_book_fate_card_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6201,
+    "name": "joint_drill_apply_req",
+    "message": "proto.JointDrillApplyReq",
+    "file": "joint_drill_apply.proto",
+    "fields": 6
+  },
+  {
+    "id": 6202,
+    "name": "joint_drill_apply_succeed_ack",
+    "message": "proto.JointDrillApplyResp",
+    "file": "joint_drill_apply.proto",
+    "fields": 3
+  },
+  {
+    "id": 6203,
+    "name": "joint_drill_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6204,
+    "name": "joint_drill_continue_req",
+    "message": "proto.JointDrillContinueReq",
+    "file": "joint_drill_continue.proto",
+    "fields": 2
+  },
+  {
+    "id": 6205,
+    "name": "joint_drill_continue_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6206,
+    "name": "joint_drill_continue_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6207,
+    "name": "joint_drill_sync_req",
+    "message": "proto.JointDrillSyncReq",
+    "file": "joint_drill_sync.proto",
+    "fields": 7
+  },
+  {
+    "id": 6208,
+    "name": "joint_drill_sync_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6209,
+    "name": "joint_drill_sync_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6210,
+    "name": "joint_drill_give_up_req",
+    "message": "proto.JointDrillGiveUpReq",
+    "file": "joint_drill_give_up.proto",
+    "fields": 6
+  },
+  {
+    "id": 6211,
+    "name": "joint_drill_give_up_succeed_ack",
+    "message": "proto.JointDrillSettle",
+    "file": "public_joint_drill.proto",
+    "fields": 9
+  },
+  {
+    "id": 6212,
+    "name": "joint_drill_give_up_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6213,
+    "name": "joint_drill_retreat_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6214,
+    "name": "joint_drill_retreat_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6215,
+    "name": "joint_drill_retreat_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6216,
+    "name": "joint_drill_settle_req",
+    "message": "proto.JointDrillSettleReq",
+    "file": "joint_drill_settle.proto",
+    "fields": 6
+  },
+  {
+    "id": 6217,
+    "name": "joint_drill_settle_succeed_ack",
+    "message": "proto.JointDrillSettle",
+    "file": "public_joint_drill.proto",
+    "fields": 9
+  },
+  {
+    "id": 6218,
+    "name": "joint_drill_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6219,
+    "name": "joint_drill_game_over_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6220,
+    "name": "joint_drill_game_over_succeed_ack",
+    "message": "proto.JointDrillSettle",
+    "file": "public_joint_drill.proto",
+    "fields": 9
+  },
+  {
+    "id": 6221,
+    "name": "joint_drill_game_over_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6222,
+    "name": "joint_drill_sweep_req",
+    "message": "proto.JointDrillSweepReq",
+    "file": "joint_drill_sweep.proto",
+    "fields": 3
+  },
+  {
+    "id": 6223,
+    "name": "joint_drill_sweep_succeed_ack",
+    "message": "proto.JointDrillSweepResp",
+    "file": "joint_drill_sweep.proto",
+    "fields": 4
+  },
+  {
+    "id": 6224,
+    "name": "joint_drill_sweep_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6225,
+    "name": "joint_drill_rank_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6226,
+    "name": "joint_drill_rank_succeed_ack",
+    "message": "proto.JointDrillRankInfo",
+    "file": "joint_drill_rank.proto",
+    "fields": 5
+  },
+  {
+    "id": 6227,
+    "name": "joint_drill_rank_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6228,
+    "name": "joint_drill_quest_reward_receive_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6229,
+    "name": "joint_drill_quest_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 6230,
+    "name": "joint_drill_quest_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6301,
+    "name": "joint_drill_2_apply_req",
+    "message": "proto.JointDrill2ApplyReq",
+    "file": "joint_drill_2_apply.proto",
+    "fields": 6
+  },
+  {
+    "id": 6302,
+    "name": "joint_drill_2_apply_succeed_ack",
+    "message": "proto.JointDrill2ApplyResp",
+    "file": "joint_drill_2_apply.proto",
+    "fields": 3
+  },
+  {
+    "id": 6303,
+    "name": "joint_drill_2_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6304,
+    "name": "joint_drill_2_continue_req",
+    "message": "proto.JointDrill2ContinueReq",
+    "file": "joint_drill_2_continue.proto",
+    "fields": 2
+  },
+  {
+    "id": 6305,
+    "name": "joint_drill_2_continue_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6306,
+    "name": "joint_drill_2_continue_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6307,
+    "name": "joint_drill_2_sync_req",
+    "message": "proto.JointDrill2SyncReq",
+    "file": "joint_drill_2_sync.proto",
+    "fields": 7
+  },
+  {
+    "id": 6308,
+    "name": "joint_drill_2_sync_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6309,
+    "name": "joint_drill_2_sync_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6310,
+    "name": "joint_drill_2_give_up_req",
+    "message": "proto.JointDrill2GiveUpReq",
+    "file": "joint_drill_2_give_up.proto",
+    "fields": 6
+  },
+  {
+    "id": 6311,
+    "name": "joint_drill_2_give_up_succeed_ack",
+    "message": "proto.JointDrillSettle",
+    "file": "public_joint_drill.proto",
+    "fields": 9
+  },
+  {
+    "id": 6312,
+    "name": "joint_drill_2_give_up_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6313,
+    "name": "joint_drill_2_retreat_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6314,
+    "name": "joint_drill_2_retreat_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6315,
+    "name": "joint_drill_2_retreat_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6316,
+    "name": "joint_drill_2_settle_req",
+    "message": "proto.JointDrill2SettleReq",
+    "file": "joint_drill_2_settle.proto",
+    "fields": 6
+  },
+  {
+    "id": 6317,
+    "name": "joint_drill_2_settle_succeed_ack",
+    "message": "proto.JointDrillSettle",
+    "file": "public_joint_drill.proto",
+    "fields": 9
+  },
+  {
+    "id": 6318,
+    "name": "joint_drill_2_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 6319,
+    "name": "joint_drill_2_game_over_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 6320,
+    "name": "joint_drill_2_game_over_succeed_ack",
+    "message": "proto.JointDrillSettle",
+    "file": "public_joint_drill.proto",
+    "fields": 9
+  },
+  {
+    "id": 6321,
+    "name": "joint_drill_2_game_over_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7013,
+    "name": "plot_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 7014,
+    "name": "plot_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 7015,
+    "name": "plot_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7016,
+    "name": "daily_instance_apply_req",
+    "message": "proto.DailyInstanceApplyReq",
+    "file": "daily_instance_apply.proto",
+    "fields": 4
+  },
+  {
+    "id": 7017,
+    "name": "daily_instance_apply_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 7018,
+    "name": "daily_instance_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7019,
+    "name": "daily_instance_settle_req",
+    "message": "proto.DailyInstanceSettleReq",
+    "file": "daily_instance_settle.proto",
+    "fields": 3
+  },
+  {
+    "id": 7020,
+    "name": "daily_instance_settle_succeed_ack",
+    "message": "proto.DailyInstanceSettleResp",
+    "file": "daily_instance_settle.proto",
+    "fields": 6
+  },
+  {
+    "id": 7021,
+    "name": "daily_instance_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7022,
+    "name": "daily_instance_raid_req",
+    "message": "proto.DailyInstanceRaidReq",
+    "file": "daily_instance_raid.proto",
+    "fields": 5
+  },
+  {
+    "id": 7023,
+    "name": "daily_instance_raid_succeed_ack",
+    "message": "proto.DailyInstanceRaidResp",
+    "file": "daily_instance_raid.proto",
+    "fields": 3
+  },
+  {
+    "id": 7024,
+    "name": "daily_instance_raid_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7028,
+    "name": "char_gem_instance_apply_req",
+    "message": "proto.CharGemInstanceApplyReq",
+    "file": "char_gem_instance_apply.proto",
+    "fields": 4
+  },
+  {
+    "id": 7029,
+    "name": "char_gem_instance_apply_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 7030,
+    "name": "char_gem_instance_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7031,
+    "name": "char_gem_instance_settle_req",
+    "message": "proto.CharGemInstanceSettleReq",
+    "file": "char_gem_instance_settle.proto",
+    "fields": 3
+  },
+  {
+    "id": 7032,
+    "name": "char_gem_instance_settle_succeed_ack",
+    "message": "proto.CharGemInstanceSettleResp",
+    "file": "char_gem_instance_settle.proto",
+    "fields": 10
+  },
+  {
+    "id": 7033,
+    "name": "char_gem_instance_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7034,
+    "name": "char_gem_instance_sweep_req",
+    "message": "proto.CharGemInstanceSweepReq",
+    "file": "char_gem_instance_sweep.proto",
+    "fields": 5
+  },
+  {
+    "id": 7035,
+    "name": "char_gem_instance_sweep_succeed_ack",
+    "message": "proto.CharGemInstanceSweepResp",
+    "file": "char_gem_instance_sweep.proto",
+    "fields": 3
+  },
+  {
+    "id": 7036,
+    "name": "char_gem_instance_sweep_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7101,
+    "name": "region_boss_level_apply_req",
+    "message": "proto.RegionBossLevelApplyReq",
+    "file": "region_boss_level_apply.proto",
+    "fields": 3
+  },
+  {
+    "id": 7102,
+    "name": "region_boss_level_apply_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 7103,
+    "name": "region_boss_level_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7104,
+    "name": "region_boss_level_settle_req",
+    "message": "proto.RegionBossLevelSettleReq",
+    "file": "region_boss_level_settle.proto",
+    "fields": 3
+  },
+  {
+    "id": 7105,
+    "name": "region_boss_level_settle_succeed_ack",
+    "message": "proto.RegionBossLevelSettleResp",
+    "file": "region_boss_level_settle.proto",
+    "fields": 10
+  },
+  {
+    "id": 7106,
+    "name": "region_boss_level_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7107,
+    "name": "region_boss_level_sweep_req",
+    "message": "proto.RegionBossLevelSweepReq",
+    "file": "region_boss_level_sweep.proto",
+    "fields": 4
+  },
+  {
+    "id": 7108,
+    "name": "region_boss_level_sweep_succeed_ack",
+    "message": "proto.RegionBossLevelSweepResp",
+    "file": "region_boss_level_sweep.proto",
+    "fields": 3
+  },
+  {
+    "id": 7109,
+    "name": "region_boss_level_sweep_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7201,
+    "name": "traveler_duel_level_apply_req",
+    "message": "proto.TravelerDuelLevelApplyReq",
+    "file": "traveler_duel_level_apply.proto",
+    "fields": 4
+  },
+  {
+    "id": 7202,
+    "name": "traveler_duel_level_apply_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 7203,
+    "name": "traveler_duel_level_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7204,
+    "name": "traveler_duel_level_settle_req",
+    "message": "proto.TravelerDuelLevelSettleReq",
+    "file": "traveler_duel_level_settle.proto",
+    "fields": 4
+  },
+  {
+    "id": 7205,
+    "name": "traveler_duel_level_settle_succeed_ack",
+    "message": "proto.TravelerDuelLevelSettleResp",
+    "file": "traveler_duel_level_settle.proto",
+    "fields": 15
+  },
+  {
+    "id": 7206,
+    "name": "traveler_duel_level_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7207,
+    "name": "traveler_duel_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 7208,
+    "name": "traveler_duel_info_succeed_ack",
+    "message": "proto.TravelerDuelInfo",
+    "file": "traveler_duel_info.proto",
+    "fields": 7
+  },
+  {
+    "id": 7209,
+    "name": "traveler_duel_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7210,
+    "name": "traveler_duel_quest_reward_receive_req",
+    "message": "proto.TravelerDuelQuestRewardReceiveReq",
+    "file": "traveler_duel_quest_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 7211,
+    "name": "traveler_duel_quest_reward_receive_succeed_ack",
+    "message": "proto.TravelerDuelQuestRewardReceiveResp",
+    "file": "traveler_duel_quest_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 7212,
+    "name": "traveler_duel_quest_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7213,
+    "name": "traveler_duel_rank_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 7214,
+    "name": "traveler_duel_rank_succeed_ack",
+    "message": "proto.TravelerDuelRankInfo",
+    "file": "traveler_duel_rank.proto",
+    "fields": 5
+  },
+  {
+    "id": 7215,
+    "name": "traveler_duel_rank_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7216,
+    "name": "traveler_duel_rank_upload_req",
+    "message": "proto.TravelerDuelBattleSamples",
+    "file": "traveler_duel_rank_upload.proto",
+    "fields": 3
+  },
+  {
+    "id": 7217,
+    "name": "traveler_duel_rank_upload_succeed_ack",
+    "message": "proto.RankChange",
+    "file": "traveler_duel_rank_upload.proto",
+    "fields": 4
+  },
+  {
+    "id": 7218,
+    "name": "traveler_duel_rank_upload_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7301,
+    "name": "story_apply_req",
+    "message": "proto.StoryApplyReq",
+    "file": "story_apply.proto",
+    "fields": 3
+  },
+  {
+    "id": 7302,
+    "name": "story_apply_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 7303,
+    "name": "story_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7304,
+    "name": "story_settle_req",
+    "message": "proto.StorySettleReq",
+    "file": "story_sett.proto",
+    "fields": 4
+  },
+  {
+    "id": 7305,
+    "name": "story_settle_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 7306,
+    "name": "story_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7401,
+    "name": "skill_instance_apply_req",
+    "message": "proto.SkillInstanceApplyReq",
+    "file": "skill_instance_apply.proto",
+    "fields": 3
+  },
+  {
+    "id": 7402,
+    "name": "skill_instance_apply_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 7403,
+    "name": "skill_instance_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7404,
+    "name": "skill_instance_settle_req",
+    "message": "proto.SkillInstanceSettleReq",
+    "file": "skill_instance_settle.proto",
+    "fields": 3
+  },
+  {
+    "id": 7405,
+    "name": "skill_instance_settle_succeed_ack",
+    "message": "proto.SkillInstanceSettleResp",
+    "file": "skill_instance_settle.proto",
+    "fields": 10
+  },
+  {
+    "id": 7406,
+    "name": "skill_instance_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7407,
+    "name": "skill_instance_sweep_req",
+    "message": "proto.SkillInstanceSweepReq",
+    "file": "skill_instance_sweep.proto",
+    "fields": 4
+  },
+  {
+    "id": 7408,
+    "name": "skill_instance_sweep_succeed_ack",
+    "message": "proto.SkillInstanceSweepResp",
+    "file": "skill_instance_sweep.proto",
+    "fields": 3
+  },
+  {
+    "id": 7409,
+    "name": "skill_instance_sweep_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7410,
+    "name": "week_boss_apply_req",
+    "message": "proto.WeekBossApplyReq",
+    "file": "week_boss_apply.proto",
+    "fields": 3
+  },
+  {
+    "id": 7411,
+    "name": "week_boss_apply_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 7412,
+    "name": "week_boss_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7413,
+    "name": "week_boss_settle_req",
+    "message": "proto.WeekBossSettleReq",
+    "file": "week_boss_settle.proto",
+    "fields": 4
+  },
+  {
+    "id": 7414,
+    "name": "week_boss_settle_succeed_ack",
+    "message": "proto.WeekBossLevelSettleResp",
+    "file": "week_boss_settle.proto",
+    "fields": 5
+  },
+  {
+    "id": 7415,
+    "name": "week_boss_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7501,
+    "name": "tutorial_level_settle_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 7502,
+    "name": "tutorial_level_settle_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 7503,
+    "name": "tutorial_level_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7504,
+    "name": "tutorial_level_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 7505,
+    "name": "tutorial_level_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 7506,
+    "name": "tutorial_level_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7601,
+    "name": "story_set_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 7602,
+    "name": "story_set_info_succeed_ack",
+    "message": "proto.StorySetInfoResp",
+    "file": "story_set_info.proto",
+    "fields": 2
+  },
+  {
+    "id": 7603,
+    "name": "story_set_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 7604,
+    "name": "story_set_reward_receive_req",
+    "message": "proto.StorySetRewardReceiveReq",
+    "file": "story_set_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 7605,
+    "name": "story_set_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 7606,
+    "name": "story_set_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8001,
+    "name": "energy_buy_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8002,
+    "name": "energy_buy_succeed_ack",
+    "message": "proto.EnergyBuyResp",
+    "file": "energy_buy.proto",
+    "fields": 3
+  },
+  {
+    "id": 8003,
+    "name": "energy_buy_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8004,
+    "name": "energy_extract_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8005,
+    "name": "energy_extract_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8006,
+    "name": "energy_extract_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8007,
+    "name": "energy_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8008,
+    "name": "energy_info_succeed_ack",
+    "message": "proto.Energy",
+    "file": "public.proto",
+    "fields": 6
+  },
+  {
+    "id": 8009,
+    "name": "energy_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8101,
+    "name": "client_event_report_req",
+    "message": "proto.Events",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8102,
+    "name": "client_event_report_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8103,
+    "name": "client_event_report_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8201,
+    "name": "vampire_survivor_apply_req",
+    "message": "proto.VampireSurvivorApplyReq",
+    "file": "vampire_survivor_apply.proto",
+    "fields": 3
+  },
+  {
+    "id": 8202,
+    "name": "vampire_survivor_apply_succeed_ack",
+    "message": "proto.VampireSurvivorApplyResp",
+    "file": "vampire_survivor_apply.proto",
+    "fields": 4
+  },
+  {
+    "id": 8203,
+    "name": "vampire_survivor_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8204,
+    "name": "vampire_survivor_area_change_req",
+    "message": "proto.VampireSurvivorAreaChangeReq",
+    "file": "vampire_survivor_area_change.proto",
+    "fields": 5
+  },
+  {
+    "id": 8205,
+    "name": "vampire_survivor_area_change_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8206,
+    "name": "vampire_survivor_area_change_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8207,
+    "name": "vampire_survivor_settle_req",
+    "message": "proto.VampireSurvivorSettleReq",
+    "file": "vampire_survivor_settle.proto",
+    "fields": 5
+  },
+  {
+    "id": 8208,
+    "name": "vampire_survivor_settle_succeed_ack",
+    "message": "proto.VampireSurvivorSettleResp",
+    "file": "vampire_survivor_settle.proto",
+    "fields": 3
+  },
+  {
+    "id": 8209,
+    "name": "vampire_survivor_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8210,
+    "name": "vampire_survivor_reward_select_req",
+    "message": "proto.VampireSurvivorRewardSelectReq",
+    "file": "vampire_survivor_reward_select.proto",
+    "fields": 3
+  },
+  {
+    "id": 8211,
+    "name": "vampire_survivor_reward_select_succeed_ack",
+    "message": "proto.VampireSurvivorRewardSelectResp",
+    "file": "vampire_survivor_reward_select.proto",
+    "fields": 3
+  },
+  {
+    "id": 8212,
+    "name": "vampire_survivor_reward_select_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8213,
+    "name": "vampire_survivor_reward_chest_req",
+    "message": "proto.VampireSurvivorRewardChestReq",
+    "file": "vampire_survivor_reward_chest.proto",
+    "fields": 3
+  },
+  {
+    "id": 8214,
+    "name": "vampire_survivor_reward_chest_succeed_ack",
+    "message": "proto.VampireSurvivorRewardChestResp",
+    "file": "vampire_survivor_reward_chest.proto",
+    "fields": 3
+  },
+  {
+    "id": 8215,
+    "name": "vampire_survivor_reward_chest_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8216,
+    "name": "vampire_survivor_quest_reward_receive_req",
+    "message": "proto.VampireSurvivorQuestRewardReceiveReq",
+    "file": "vampire_survivor_quest_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 8217,
+    "name": "vampire_survivor_quest_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8218,
+    "name": "vampire_survivor_quest_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8222,
+    "name": "vampire_survivor_extra_reward_select_req",
+    "message": "proto.VampireSurvivorRewardSelectReq",
+    "file": "vampire_survivor_reward_select.proto",
+    "fields": 3
+  },
+  {
+    "id": 8223,
+    "name": "vampire_survivor_extra_reward_select_succeed_ack",
+    "message": "proto.VampireSurvivorRewardSelectResp",
+    "file": "vampire_survivor_reward_select.proto",
+    "fields": 3
+  },
+  {
+    "id": 8224,
+    "name": "vampire_survivor_extra_reward_select_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8225,
+    "name": "vampire_survivor_restart_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8226,
+    "name": "vampire_survivor_restart_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8227,
+    "name": "vampire_survivor_restart_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8301,
+    "name": "vampire_talent_detail_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8302,
+    "name": "vampire_talent_detail_succeed_ack",
+    "message": "proto.VampireTalentDetailResp",
+    "file": "vampire_talent_detail.proto",
+    "fields": 5
+  },
+  {
+    "id": 8303,
+    "name": "vampire_talent_detail_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8304,
+    "name": "vampire_talent_reset_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8305,
+    "name": "vampire_talent_reset_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8306,
+    "name": "vampire_talent_reset_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8307,
+    "name": "vampire_talent_unlock_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8308,
+    "name": "vampire_talent_unlock_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8309,
+    "name": "vampire_talent_unlock_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8310,
+    "name": "vampire_talent_show_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8311,
+    "name": "vampire_talent_show_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8312,
+    "name": "vampire_talent_show_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8313,
+    "name": "vampire_survivor_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8314,
+    "name": "vampire_survivor_info_succeed_ack",
+    "message": "proto.VampireSurvivorInfoResp",
+    "file": "vampire_survivor_info.proto",
+    "fields": 7
+  },
+  {
+    "id": 8315,
+    "name": "vampire_survivor_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8316,
+    "name": "activity_story_apply_req",
+    "message": "proto.ActivityStoryApplyReq",
+    "file": "activity_story_apply.proto",
+    "fields": 4
+  },
+  {
+    "id": 8317,
+    "name": "activity_story_apply_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8318,
+    "name": "activity_story_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8319,
+    "name": "activity_story_settle_req",
+    "message": "proto.ActivityStorySettleReq",
+    "file": "activity_story_settle.proto",
+    "fields": 5
+  },
+  {
+    "id": 8320,
+    "name": "activity_story_settle_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8321,
+    "name": "activity_story_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8322,
+    "name": "activity_throw_gift_settle_req",
+    "message": "proto.ActivityThrowGiftSettleReq",
+    "file": "activity_throw_gift_settle.proto",
+    "fields": 8
+  },
+  {
+    "id": 8323,
+    "name": "activity_throw_gift_settle_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8324,
+    "name": "activity_throw_gift_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8325,
+    "name": "player_last_read_update_req",
+    "message": "proto.LastRead",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8326,
+    "name": "player_last_read_update_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8327,
+    "name": "player_last_read_update_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8328,
+    "name": "activity_history_story_apply_req",
+    "message": "proto.ActivityHistoryStoryApplyReq",
+    "file": "activity_history_story_apply.proto",
+    "fields": 4
+  },
+  {
+    "id": 8329,
+    "name": "activity_history_story_apply_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8330,
+    "name": "activity_history_story_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8331,
+    "name": "activity_history_story_settle_req",
+    "message": "proto.ActivityHistoryStorySettleReq",
+    "file": "activity_history_story_settle.proto",
+    "fields": 5
+  },
+  {
+    "id": 8332,
+    "name": "activity_history_story_settle_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8333,
+    "name": "activity_history_story_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8401,
+    "name": "activity_penguin_card_level_settle_req",
+    "message": "proto.ActivityPenguinCardSettleReq",
+    "file": "activity_penguin_card_level_settle.proto",
+    "fields": 5
+  },
+  {
+    "id": 8402,
+    "name": "activity_penguin_card_level_settle_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8403,
+    "name": "activity_penguin_card_level_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8404,
+    "name": "activity_penguin_card_quest_reward_receive_req",
+    "message": "proto.ActivityPenguinCardQuestReceiveReq",
+    "file": "activity_penguin_card_quest_reward_receive.proto",
+    "fields": 4
+  },
+  {
+    "id": 8405,
+    "name": "activity_penguin_card_quest_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8406,
+    "name": "activity_penguin_card_quest_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8407,
+    "name": "activity_double_quest_reward_receive_req",
+    "message": "proto.ActivityDoubleQuestRewardReq",
+    "file": "activity_double_quest_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 8408,
+    "name": "activity_double_quest_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8409,
+    "name": "activity_double_quest_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8411,
+    "name": "activity_ice_cream_level_settle_req",
+    "message": "proto.ActivityIceCreamLevelSettleReq",
+    "file": "activity_ice_cream_level_settle.proto",
+    "fields": 10
+  },
+  {
+    "id": 8412,
+    "name": "activity_ice_cream_level_settle_succeed_ack",
+    "message": "proto.ActivityIceCreamLevelSettleSucceed",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 8413,
+    "name": "activity_ice_cream_level_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8416,
+    "name": "activity_penguin_card_endless_level_save_req",
+    "message": "proto.ActivityPenguinCardEndlessLevelSaveReq",
+    "file": "activity_penguin_card_endless_level_save.proto",
+    "fields": 4
+  },
+  {
+    "id": 8417,
+    "name": "activity_penguin_card_endless_level_save_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8418,
+    "name": "activity_penguin_card_endless_level_save_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8419,
+    "name": "guide_mission_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8420,
+    "name": "guide_mission_info_succeed_ack",
+    "message": "proto.GuideMissionInfo",
+    "file": "guide_mission_info.proto",
+    "fields": 2
+  },
+  {
+    "id": 8421,
+    "name": "guide_mission_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8422,
+    "name": "guide_mission_quest_reward_receive_req",
+    "message": "proto.GuideMissionQuestRewardReceiveReq",
+    "file": "guide_mission_quest_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 8423,
+    "name": "guide_mission_quest_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8424,
+    "name": "guide_mission_quest_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8430,
+    "name": "activity_math_parkour_level_settle_req",
+    "message": "proto.ActivityMathParkourLevelSettleReq",
+    "file": "activity_math_parkour_level_settle.proto",
+    "fields": 6
+  },
+  {
+    "id": 8431,
+    "name": "activity_math_parkour_level_settle_succeed_ack",
+    "message": "proto.ActivityMathParkourLevelSettleSucceed",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 8432,
+    "name": "activity_math_parkour_level_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8501,
+    "name": "activity_returnee_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8502,
+    "name": "activity_returnee_info_succeed_ack",
+    "message": "proto.ActivityReturneeInfoResp",
+    "file": "activity_returnee_info.proto",
+    "fields": 7
+  },
+  {
+    "id": 8503,
+    "name": "activity_returnee_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8504,
+    "name": "activity_returnee_reunion_reward_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8505,
+    "name": "activity_returnee_reunion_reward_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8506,
+    "name": "activity_returnee_reunion_reward_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8507,
+    "name": "activity_returnee_quest_point_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8508,
+    "name": "activity_returnee_quest_point_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8509,
+    "name": "activity_returnee_quest_point_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8510,
+    "name": "activity_returnee_avg_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8511,
+    "name": "activity_returnee_avg_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8512,
+    "name": "activity_returnee_avg_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8513,
+    "name": "activity_returnee_quest_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8514,
+    "name": "activity_returnee_quest_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8515,
+    "name": "activity_returnee_quest_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8516,
+    "name": "activity_returnee_login_reward_receive_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8517,
+    "name": "activity_returnee_login_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8518,
+    "name": "activity_returnee_login_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8519,
+    "name": "activity_returnee_card_reward_receive_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8520,
+    "name": "activity_returnee_card_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8521,
+    "name": "activity_returnee_card_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8522,
+    "name": "activity_returnee_card_order_req",
+    "message": "proto.String",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8523,
+    "name": "activity_returnee_card_order_succeed_ack",
+    "message": "proto.OrderInfo",
+    "file": "mall_gem_order.proto",
+    "fields": 4
+  },
+  {
+    "id": 8524,
+    "name": "activity_returnee_card_order_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8525,
+    "name": "activity_returnee_pack_order_req",
+    "message": "proto.String",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8526,
+    "name": "activity_returnee_pack_order_succeed_ack",
+    "message": "proto.OrderInfo",
+    "file": "mall_gem_order.proto",
+    "fields": 4
+  },
+  {
+    "id": 8527,
+    "name": "activity_returnee_pack_order_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8601,
+    "name": "activity_archive_story_apply_req",
+    "message": "proto.ActivityArchiveStoryApplyReq",
+    "file": "activity_archive_story_apply.proto",
+    "fields": 4
+  },
+  {
+    "id": 8602,
+    "name": "activity_archive_story_apply_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8603,
+    "name": "activity_archive_story_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8604,
+    "name": "activity_archive_story_settle_req",
+    "message": "proto.ActivityArchiveStorySettleReq",
+    "file": "activity_archive_story_settle.proto",
+    "fields": 5
+  },
+  {
+    "id": 8605,
+    "name": "activity_archive_story_settle_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8606,
+    "name": "activity_archive_story_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8607,
+    "name": "activity_archive_story_info_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8608,
+    "name": "activity_archive_story_info_succeed_ack",
+    "message": "proto.ActivityHistoryStoryChapter",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8609,
+    "name": "activity_archive_story_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8610,
+    "name": "activity_mail_bind_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8611,
+    "name": "activity_mail_bind_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 8612,
+    "name": "activity_mail_bind_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 8613,
+    "name": "activity_archive_story_chapter_pass_req",
+    "message": "proto.ActivityArchiveStoryChapterPassReq",
+    "file": "activity_archive_story_chapter_pass.proto",
+    "fields": 2
+  },
+  {
+    "id": 8614,
+    "name": "activity_archive_story_chapter_pass_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 8615,
+    "name": "activity_archive_story_chapter_pass_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9001,
+    "name": "mail_list_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9002,
+    "name": "mail_list_succeed_ack",
+    "message": "proto.Mails",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9003,
+    "name": "mail_list_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9004,
+    "name": "mail_read_req",
+    "message": "proto.MailRequest",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 9005,
+    "name": "mail_read_succeed_ack",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9006,
+    "name": "mail_read_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9007,
+    "name": "mail_recv_req",
+    "message": "proto.MailRequest",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 9008,
+    "name": "mail_recv_succeed_ack",
+    "message": "proto.MailRecvResp",
+    "file": "mail_recv.proto",
+    "fields": 3
+  },
+  {
+    "id": 9009,
+    "name": "mail_recv_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9010,
+    "name": "mail_remove_req",
+    "message": "proto.MailRequest",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 9011,
+    "name": "mail_remove_succeed_ack",
+    "message": "proto.MailRemoveResp",
+    "file": "mail_remove.proto",
+    "fields": 2
+  },
+  {
+    "id": 9012,
+    "name": "mail_remove_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9013,
+    "name": "mail_pin_req",
+    "message": "proto.MailPinRequest",
+    "file": "mail_pin.proto",
+    "fields": 4
+  },
+  {
+    "id": 9014,
+    "name": "mail_pin_succeed_ack",
+    "message": "proto.MailPinRequest",
+    "file": "mail_pin.proto",
+    "fields": 4
+  },
+  {
+    "id": 9015,
+    "name": "mail_pin_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9101,
+    "name": "activity_detail_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9102,
+    "name": "activity_detail_succeed_ack",
+    "message": "proto.ActivityResp",
+    "file": "activity_detail.proto",
+    "fields": 2
+  },
+  {
+    "id": 9103,
+    "name": "activity_detail_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9104,
+    "name": "activity_periodic_reward_receive_req",
+    "message": "proto.ActivityPeriodicRewardReq",
+    "file": "activity_periodic_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 9105,
+    "name": "activity_periodic_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9106,
+    "name": "activity_periodic_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9107,
+    "name": "activity_periodic_final_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9108,
+    "name": "activity_periodic_final_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9109,
+    "name": "activity_periodic_final_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9110,
+    "name": "activity_login_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9111,
+    "name": "activity_login_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9112,
+    "name": "activity_login_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9113,
+    "name": "activity_tower_defense_story_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9114,
+    "name": "activity_tower_defense_story_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9115,
+    "name": "activity_tower_defense_story_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9116,
+    "name": "activity_tower_defense_quest_reward_receive_req",
+    "message": "proto.ActivityTowerDefenseQuestReceiveReq",
+    "file": "activity_tower_defense_quest_reward_receive.proto",
+    "fields": 4
+  },
+  {
+    "id": 9117,
+    "name": "activity_tower_defense_quest_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9118,
+    "name": "activity_tower_defense_quest_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9119,
+    "name": "activity_tower_defense_level_apply_req",
+    "message": "proto.ActivityTowerDefenseLevelApplyReq",
+    "file": "activity_tower_defense_level_apply.proto",
+    "fields": 4
+  },
+  {
+    "id": 9120,
+    "name": "activity_tower_defense_level_apply_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9121,
+    "name": "activity_tower_defense_level_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9122,
+    "name": "activity_tower_defense_level_settle_req",
+    "message": "proto.ActivityTowerDefenseLevelSettleReq",
+    "file": "activity_tower_defense_level_settle.proto",
+    "fields": 3
+  },
+  {
+    "id": 9123,
+    "name": "activity_tower_defense_level_settle_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9124,
+    "name": "activity_tower_defense_level_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9125,
+    "name": "activity_trekker_versus_apply_req",
+    "message": "proto.ActivityTrekkerVersusApplyReq",
+    "file": "activity_trekker_versus_apply.proto",
+    "fields": 5
+  },
+  {
+    "id": 9126,
+    "name": "activity_trekker_versus_apply_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9127,
+    "name": "activity_trekker_versus_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9128,
+    "name": "activity_trekker_versus_settle_req",
+    "message": "proto.ActivityTrekkerVersusSettleReq",
+    "file": "activity_trekker_versus_settle.proto",
+    "fields": 5
+  },
+  {
+    "id": 9129,
+    "name": "activity_trekker_versus_settle_succeed_ack",
+    "message": "proto.ActivityTrekkerVersusSettleResp",
+    "file": "activity_trekker_versus_settle.proto",
+    "fields": 2
+  },
+  {
+    "id": 9130,
+    "name": "activity_trekker_versus_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9131,
+    "name": "activity_trekker_versus_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9132,
+    "name": "activity_trekker_versus_reward_receive_succeed_ack",
+    "message": "proto.ActivityTrekkerVersusRewardReceiveResp",
+    "file": "activity_trekker_versus_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 9133,
+    "name": "activity_trekker_versus_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9134,
+    "name": "activity_trekker_versus_idle_refresh_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9135,
+    "name": "activity_trekker_versus_idle_refresh_succeed_ack",
+    "message": "proto.TrekkerVersusShow",
+    "file": "public.proto",
+    "fields": 6
+  },
+  {
+    "id": 9136,
+    "name": "activity_trekker_versus_idle_refresh_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9137,
+    "name": "activity_trekker_versus_idle_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9138,
+    "name": "activity_trekker_versus_idle_reward_receive_succeed_ack",
+    "message": "proto.ActivityTrekkerVersusIdleRewardReceiveResp",
+    "file": "activity_trekker_versus_idle_reward_receive.proto",
+    "fields": 4
+  },
+  {
+    "id": 9139,
+    "name": "activity_trekker_versus_idle_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9140,
+    "name": "activity_trekker_versus_rank_boost_req",
+    "message": "proto.ActivityTrekkerVersusRankBoostReq",
+    "file": "activity_trekker_versus_rank_boost.proto",
+    "fields": 3
+  },
+  {
+    "id": 9141,
+    "name": "activity_trekker_versus_rank_boost_succeed_ack",
+    "message": "proto.ActivityTrekkerVersusRankBoostResp",
+    "file": "activity_trekker_versus_rank_boost.proto",
+    "fields": 7
+  },
+  {
+    "id": 9142,
+    "name": "activity_trekker_versus_rank_boost_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9143,
+    "name": "activity_trekker_versus_schedule_reward_receive_req",
+    "message": "proto.ActivityTrekkerVersusScheduleRewardReceiveReq",
+    "file": "activity_trekker_versus_schedule_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 9144,
+    "name": "activity_trekker_versus_schedule_reward_receive_succeed_ack",
+    "message": "proto.ActivityTrekkerVersusScheduleRewardReceiveResp",
+    "file": "activity_trekker_versus_schedule_reward_receive.proto",
+    "fields": 5
+  },
+  {
+    "id": 9145,
+    "name": "activity_trekker_versus_schedule_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9146,
+    "name": "activity_malllogin_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9147,
+    "name": "activity_malllogin_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9148,
+    "name": "activity_malllogin_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9201,
+    "name": "phone_contacts_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9202,
+    "name": "phone_contacts_info_succeed_ack",
+    "message": "proto.PhoneContactsInfoResp",
+    "file": "phone_contacts_info.proto",
+    "fields": 2
+  },
+  {
+    "id": 9203,
+    "name": "phone_contacts_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9204,
+    "name": "phone_contacts_report_req",
+    "message": "proto.PhoneContactsReportReq",
+    "file": "phone_contacts_report.proto",
+    "fields": 5
+  },
+  {
+    "id": 9205,
+    "name": "phone_contacts_report_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9206,
+    "name": "phone_contacts_report_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9207,
+    "name": "phone_contacts_top_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9208,
+    "name": "phone_contacts_top_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9209,
+    "name": "phone_contacts_top_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9210,
+    "name": "activity_share_reward_receive_req",
+    "message": "proto.ActivityShareRewardReq",
+    "file": "activity_share_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 9211,
+    "name": "activity_share_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9212,
+    "name": "activity_share_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9301,
+    "name": "talent_unlock_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9302,
+    "name": "talent_unlock_succeed_ack",
+    "message": "proto.TalentUnlockResp",
+    "file": "talent_unlock.proto",
+    "fields": 3
+  },
+  {
+    "id": 9303,
+    "name": "talent_unlock_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9304,
+    "name": "talent_reset_req",
+    "message": "proto.TalentResetReq",
+    "file": "talent_reset.proto",
+    "fields": 3
+  },
+  {
+    "id": 9305,
+    "name": "talent_reset_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9306,
+    "name": "talent_reset_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9307,
+    "name": "talent_node_reset_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9308,
+    "name": "talent_node_reset_succeed_ack",
+    "message": "proto.TalentNodeResetResp",
+    "file": "talent_node_reset.proto",
+    "fields": 3
+  },
+  {
+    "id": 9309,
+    "name": "talent_node_reset_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9310,
+    "name": "talent_background_set_req",
+    "message": "proto.TalentBackgroundSetReq",
+    "file": "talent_background_set.proto",
+    "fields": 3
+  },
+  {
+    "id": 9311,
+    "name": "talent_background_set_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9312,
+    "name": "talent_background_set_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9313,
+    "name": "talent_group_unlock_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9314,
+    "name": "talent_group_unlock_succeed_ack",
+    "message": "proto.TalentGroupUnlockResp",
+    "file": "talent_group_unlock.proto",
+    "fields": 3
+  },
+  {
+    "id": 9315,
+    "name": "talent_group_unlock_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9401,
+    "name": "activity_trial_reward_receive_req",
+    "message": "proto.ActivityTrialRewardReceiveReq",
+    "file": "activity_trial_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 9402,
+    "name": "activity_trial_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9403,
+    "name": "activity_trial_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9501,
+    "name": "activity_cg_read_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9502,
+    "name": "activity_cg_read_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9503,
+    "name": "activity_cg_read_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9510,
+    "name": "dorm_info_list_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9511,
+    "name": "dorm_info_list_succeed_ack",
+    "message": "proto.DormInfoListResp",
+    "file": "dorm_info.proto",
+    "fields": 6
+  },
+  {
+    "id": 9512,
+    "name": "dorm_info_list_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9513,
+    "name": "dorm_furniture_preset_list_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9514,
+    "name": "dorm_furniture_preset_list_succeed_ack",
+    "message": "proto.DormFurniturePresetListResp",
+    "file": "dorm_furniture_preset.proto",
+    "fields": 3
+  },
+  {
+    "id": 9515,
+    "name": "dorm_furniture_preset_list_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9516,
+    "name": "dorm_bag_list_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9517,
+    "name": "dorm_bag_list_succeed_ack",
+    "message": "proto.DormBagListResp",
+    "file": "dorm_furniture_list.proto",
+    "fields": 2
+  },
+  {
+    "id": 9518,
+    "name": "dorm_bag_list_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9519,
+    "name": "dorm_furniture_preset_delete_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9520,
+    "name": "dorm_furniture_preset_delete_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9521,
+    "name": "dorm_furniture_preset_delete_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9522,
+    "name": "dorm_furniture_save_req",
+    "message": "proto.DormFurnitureSaveReq",
+    "file": "dorm_furniture_save.proto",
+    "fields": 4
+  },
+  {
+    "id": 9523,
+    "name": "dorm_furniture_save_succeed_ack",
+    "message": "proto.I64",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9524,
+    "name": "dorm_furniture_save_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9525,
+    "name": "dorm_info_update_name_req",
+    "message": "proto.StringV",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 9526,
+    "name": "dorm_info_update_name_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9527,
+    "name": "dorm_info_update_name_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9528,
+    "name": "dorm_invitation_role_req",
+    "message": "proto.DormInvitationRoleReq",
+    "file": "dorm_invitation_role.proto",
+    "fields": 3
+  },
+  {
+    "id": 9529,
+    "name": "dorm_invitation_role_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9530,
+    "name": "dorm_invitation_role_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9531,
+    "name": "dorm_reward_receive_req",
+    "message": "proto.DormRewardReceiveReq",
+    "file": "dorm_reward_receive.proto",
+    "fields": 2
+  },
+  {
+    "id": 9532,
+    "name": "dorm_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9533,
+    "name": "dorm_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9534,
+    "name": "dorm_role_interaction_req",
+    "message": "proto.DormRoleInteractionReq",
+    "file": "dorm_role_interaction.proto",
+    "fields": 2
+  },
+  {
+    "id": 9535,
+    "name": "dorm_role_interaction_succeed_ack",
+    "message": "proto.DormRoleInteractionResp",
+    "file": "dorm_role_interaction.proto",
+    "fields": 3
+  },
+  {
+    "id": 9536,
+    "name": "dorm_role_interaction_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9537,
+    "name": "dorm_affinity_gift_send_req",
+    "message": "proto.DormAffinityGiftSendReq",
+    "file": "dorm_affinity_gift_send.proto",
+    "fields": 4
+  },
+  {
+    "id": 9538,
+    "name": "dorm_affinity_gift_send_succeed_ack",
+    "message": "proto.DormAffinityGiftSendResp",
+    "file": "dorm_affinity_gift_send.proto",
+    "fields": 4
+  },
+  {
+    "id": 9539,
+    "name": "dorm_affinity_gift_send_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9540,
+    "name": "dorm_friend_list_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9541,
+    "name": "dorm_friend_list_succeed_ack",
+    "message": "proto.DormFriendListResp",
+    "file": "dorm_friend_list.proto",
+    "fields": 2
+  },
+  {
+    "id": 9542,
+    "name": "dorm_friend_list_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9543,
+    "name": "dorm_friend_visit_req",
+    "message": "proto.DormFriendVisitReq",
+    "file": "dorm_friend_visit.proto",
+    "fields": 2
+  },
+  {
+    "id": 9544,
+    "name": "dorm_friend_visit_succeed_ack",
+    "message": "proto.DormFriendVisitResp",
+    "file": "dorm_friend_visit.proto",
+    "fields": 3
+  },
+  {
+    "id": 9545,
+    "name": "dorm_friend_visit_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9547,
+    "name": "dorm_layout_reward_receive_req",
+    "message": "proto.DormLayoutRewardReceiveReq",
+    "file": "dorm_layout_reward_receive.proto",
+    "fields": 2
+  },
+  {
+    "id": 9548,
+    "name": "dorm_layout_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9549,
+    "name": "dorm_layout_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9550,
+    "name": "dorm_room_bgm_req",
+    "message": "proto.DormRoomBGMReq",
+    "file": "dorm_room_bgm.proto",
+    "fields": 2
+  },
+  {
+    "id": 9551,
+    "name": "dorm_room_bgm_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9552,
+    "name": "dorm_room_bgm_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9553,
+    "name": "dorm_friend_like_req",
+    "message": "proto.DormFriendLikeReq",
+    "file": "dorm_friend_like.proto",
+    "fields": 2
+  },
+  {
+    "id": 9554,
+    "name": "dorm_friend_like_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9555,
+    "name": "dorm_friend_like_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9556,
+    "name": "dorm_update_preset_name_req",
+    "message": "proto.StringV",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 9557,
+    "name": "dorm_update_preset_name_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9558,
+    "name": "dorm_update_preset_name_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9559,
+    "name": "dorm_set_room_scene_req",
+    "message": "proto.UI32V",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 9560,
+    "name": "dorm_set_room_scene_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9561,
+    "name": "dorm_set_room_scene_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9562,
+    "name": "dorm_achievement_reward_receive_req",
+    "message": "proto.DormAchievementRewardReceiveReq",
+    "file": "dorm_achievement_reward_receive.proto",
+    "fields": 2
+  },
+  {
+    "id": 9563,
+    "name": "dorm_achievement_reward_receive_succeed_ack",
+    "message": "proto.AchievementComplete",
+    "file": "public_dorm.proto",
+    "fields": 3
+  },
+  {
+    "id": 9564,
+    "name": "dorm_achievement_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9565,
+    "name": "dorm_blocks_convert_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9566,
+    "name": "dorm_blocks_convert_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9567,
+    "name": "dorm_blocks_convert_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9568,
+    "name": "dorm_get_change_data_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9569,
+    "name": "dorm_get_change_data_succeed_ack",
+    "message": "proto.DormChangeDataResp",
+    "file": "dorm_get_change_data.proto",
+    "fields": 2
+  },
+  {
+    "id": 9570,
+    "name": "dorm_get_change_data_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9571,
+    "name": "dorm_learn_req",
+    "message": "proto.NewbieInfo",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 9572,
+    "name": "dorm_learn_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9573,
+    "name": "dorm_learn_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9574,
+    "name": "dorm_get_furniture_num_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9575,
+    "name": "dorm_get_furniture_num_succeed_ack",
+    "message": "proto.ItemTpl",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 9576,
+    "name": "dorm_get_furniture_num_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9601,
+    "name": "activity_levels_apply_req",
+    "message": "proto.ActivityLevelsApplyReq",
+    "file": "activity_levels_apply.proto",
+    "fields": 4
+  },
+  {
+    "id": 9602,
+    "name": "activity_levels_apply_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9603,
+    "name": "activity_levels_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9604,
+    "name": "activity_levels_settle_req",
+    "message": "proto.ActivityLevelsSettleReq",
+    "file": "activity_levels_settle.proto",
+    "fields": 4
+  },
+  {
+    "id": 9605,
+    "name": "activity_levels_settle_succeed_ack",
+    "message": "proto.ActivityLevelsSettleResp",
+    "file": "activity_levels_settle.proto",
+    "fields": 5
+  },
+  {
+    "id": 9606,
+    "name": "activity_levels_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9607,
+    "name": "activity_levels_sweep_req",
+    "message": "proto.ActivityLevelsSweepReq",
+    "file": "activity_levels_sweep.proto",
+    "fields": 5
+  },
+  {
+    "id": 9608,
+    "name": "activity_levels_sweep_succeed_ack",
+    "message": "proto.ActivityLevelsSweepResp",
+    "file": "activity_levels_sweep.proto",
+    "fields": 3
+  },
+  {
+    "id": 9609,
+    "name": "activity_levels_sweep_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9701,
+    "name": "activity_avg_reward_receive_req",
+    "message": "proto.ActivityAvgRewardReceiveReq",
+    "file": "activity_avg_reward_receive.proto",
+    "fields": 4
+  },
+  {
+    "id": 9702,
+    "name": "activity_avg_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9703,
+    "name": "activity_avg_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9751,
+    "name": "activity_shop_purchase_req",
+    "message": "proto.ActivityShopPurchaseReq",
+    "file": "activity_shop_purchase.proto",
+    "fields": 6
+  },
+  {
+    "id": 9752,
+    "name": "activity_shop_purchase_succeed_ack",
+    "message": "proto.ActivityShopPurchaseResp",
+    "file": "activity_shop_purchase.proto",
+    "fields": 5
+  },
+  {
+    "id": 9753,
+    "name": "activity_shop_purchase_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9801,
+    "name": "battle_pass_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 9802,
+    "name": "battle_pass_info_succeed_ack",
+    "message": "proto.BattlePassInfo",
+    "file": "battle_pass_info.proto",
+    "fields": 12
+  },
+  {
+    "id": 9803,
+    "name": "battle_pass_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9804,
+    "name": "battle_pass_reward_receive_req",
+    "message": "proto.BattlePassRewardReceiveReq",
+    "file": "battle_pass_reward_receive.proto",
+    "fields": 5
+  },
+  {
+    "id": 9805,
+    "name": "battle_pass_reward_receive_succeed_ack",
+    "message": "proto.BattlePassRewardReceiveResp",
+    "file": "battle_pass_reward_receive.proto",
+    "fields": 4
+  },
+  {
+    "id": 9806,
+    "name": "battle_pass_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9807,
+    "name": "battle_pass_level_buy_req",
+    "message": "proto.UI32V",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 9808,
+    "name": "battle_pass_level_buy_succeed_ack",
+    "message": "proto.BattlePassLevelBuyResp",
+    "file": "battle_pass_level_buy.proto",
+    "fields": 3
+  },
+  {
+    "id": 9809,
+    "name": "battle_pass_level_buy_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9810,
+    "name": "battle_pass_order_req",
+    "message": "proto.BattlePassOrderReq",
+    "file": "battle_pass_order.proto",
+    "fields": 3
+  },
+  {
+    "id": 9811,
+    "name": "battle_pass_order_succeed_ack",
+    "message": "proto.OrderInfo",
+    "file": "mall_gem_order.proto",
+    "fields": 4
+  },
+  {
+    "id": 9812,
+    "name": "battle_pass_order_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9813,
+    "name": "battle_pass_order_collect_req",
+    "message": "proto.String",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9814,
+    "name": "battle_pass_order_collect_succeed_ack",
+    "message": "proto.BattlePassOrderCollectResp",
+    "file": "battle_pass_order_collect.proto",
+    "fields": 5
+  },
+  {
+    "id": 9815,
+    "name": "battle_pass_order_collect_failed_ack",
+    "message": "proto.CollectResp",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 9816,
+    "name": "battle_pass_quest_reward_receive_req",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9817,
+    "name": "battle_pass_quest_reward_receive_succeed_ack",
+    "message": "proto.BattlePassQuestRewardResp",
+    "file": "battle_pass_quest_reward_receive.proto",
+    "fields": 4
+  },
+  {
+    "id": 9818,
+    "name": "battle_pass_quest_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 9901,
+    "name": "redeem_code_req",
+    "message": "proto.String",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 9902,
+    "name": "redeem_code_succeed_ack",
+    "message": "proto.RedeemCodeResp",
+    "file": "redeem_code.proto",
+    "fields": 3
+  },
+  {
+    "id": 9903,
+    "name": "redeem_code_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 10000,
+    "name": "system_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 10001,
+    "name": "player_new_notify",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 10002,
+    "name": "mail_state_notify",
+    "message": "proto.MailState",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 10003,
+    "name": "player_relogin_notify",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 10004,
+    "name": "token_expire_notify",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 10005,
+    "name": "player_ban_notify",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 10006,
+    "name": "quest_change_notify",
+    "message": "proto.Quest",
+    "file": "public.proto",
+    "fields": 6
+  },
+  {
+    "id": 10007,
+    "name": "week_boss_refresh_ticket_notify",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10008,
+    "name": "agent_new_notify",
+    "message": "proto.NewAgent",
+    "file": "notify.proto",
+    "fields": 2
+  },
+  {
+    "id": 10009,
+    "name": "world_class_change_notify",
+    "message": "proto.WorldClassUpdate",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 10010,
+    "name": "friend_energy_state_notify",
+    "message": "proto.FriendEnergyState",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10011,
+    "name": "signin_reward_change_notify",
+    "message": "proto.SigninRewardUpdate",
+    "file": "notify.proto",
+    "fields": 4
+  },
+  {
+    "id": 10012,
+    "name": "friend_state_notify",
+    "message": "proto.FriendState",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 10013,
+    "name": "order_paid_notify",
+    "message": "proto.OrderStateChange",
+    "file": "notify.proto",
+    "fields": 3
+  },
+  {
+    "id": 10014,
+    "name": "order_revoke_notify",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10015,
+    "name": "star_tower_book_potential_notify",
+    "message": "proto.StarTowerBookPotentialChange",
+    "file": "notify.proto",
+    "fields": 3
+  },
+  {
+    "id": 10016,
+    "name": "star_tower_book_event_notify",
+    "message": "proto.StarTowerBookEventChange",
+    "file": "notify.proto",
+    "fields": 2
+  },
+  {
+    "id": 10017,
+    "name": "battle_pass_state_notify",
+    "message": "proto.BattlePassState",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10018,
+    "name": "world_class_reward_state_notify",
+    "message": "proto.WorldClassRewardState",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10019,
+    "name": "char_advance_reward_state_notify",
+    "message": "proto.CharAdvanceRewardState",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 10020,
+    "name": "achievement_change_notify",
+    "message": "proto.Achievement",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 10021,
+    "name": "achievement_state_notify",
+    "message": "proto.AchievementState",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10022,
+    "name": "character_skin_gain_notify",
+    "message": "proto.Skin",
+    "file": "notify.proto",
+    "fields": 3
+  },
+  {
+    "id": 10023,
+    "name": "character_skin_change_notify",
+    "message": "proto.SkinChange",
+    "file": "notify.proto",
+    "fields": 3
+  },
+  {
+    "id": 10024,
+    "name": "handbook_change_notify",
+    "message": "proto.HandbookInfo",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 10025,
+    "name": "monthly_card_rewards_notify",
+    "message": "proto.MonthlyCardRewards",
+    "file": "notify.proto",
+    "fields": 7
+  },
+  {
+    "id": 10026,
+    "name": "quest_state_notify",
+    "message": "proto.QuestState",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 10027,
+    "name": "mall_package_state_notify",
+    "message": "proto.MallPackageState",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10028,
+    "name": "dictionary_change_notify",
+    "message": "proto.Dictionary",
+    "file": "public.proto",
+    "fields": 4
+  },
+  {
+    "id": 10029,
+    "name": "activity_change_notify",
+    "message": "proto.Activity",
+    "file": "public.proto",
+    "fields": 4
+  },
+  {
+    "id": 10030,
+    "name": "activity_quest_change_notify",
+    "message": "proto.ActivityQuest",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 10031,
+    "name": "char_affinity_reward_state_notify",
+    "message": "proto.CharAffinityRewardState",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 10032,
+    "name": "mail_overflow_notify",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 10033,
+    "name": "infinity_tower_rewards_state_notify",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10034,
+    "name": "phone_chat_change_notify",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10035,
+    "name": "character_fragments_overflow_change_notify",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10036,
+    "name": "activity_login_rewards_notify",
+    "message": "proto.ActivityLogin",
+    "file": "public.proto",
+    "fields": 4
+  },
+  {
+    "id": 10037,
+    "name": "tower_book_fate_card_collect_notify",
+    "message": "proto.TowerBookFateCardCollectNotify",
+    "file": "notify.proto",
+    "fields": 2
+  },
+  {
+    "id": 10038,
+    "name": "tower_book_fate_card_reward_notify",
+    "message": "proto.TowerBookFateCardRewardChangeNotify",
+    "file": "notify.proto",
+    "fields": 3
+  },
+  {
+    "id": 10039,
+    "name": "region_boss_level_challenge_ticket_notify",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10040,
+    "name": "honor_change_notify",
+    "message": "proto.HonorChangeNotify",
+    "file": "notify.proto",
+    "fields": 2
+  },
+  {
+    "id": 10041,
+    "name": "activity_mining_daily_reward_notify",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10042,
+    "name": "activity_mining_supplement_reward_notify",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10043,
+    "name": "activity_mining_energy_convert_notify",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10044,
+    "name": "notice_change_notify",
+    "message": "proto.NoticeChangeNotify",
+    "file": "notify.proto",
+    "fields": 8
+  },
+  {
+    "id": 10045,
+    "name": "activity_state_change_notify",
+    "message": "proto.ActivityState",
+    "file": "public.proto",
+    "fields": 4
+  },
+  {
+    "id": 10046,
+    "name": "activity_joint_drill_refresh_ticket_notify",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10047,
+    "name": "force_update_notify",
+    "message": "proto.UI64",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10048,
+    "name": "player_head_icon_change_notify",
+    "message": "proto.PlayerHeadIconChangeNotify",
+    "file": "notify.proto",
+    "fields": 3
+  },
+  {
+    "id": 10049,
+    "name": "activity_mining_enter_layer_notify",
+    "message": "proto.ActivityMiningEnterLayerNotify",
+    "file": "notify.proto",
+    "fields": 3
+  },
+  {
+    "id": 10050,
+    "name": "story_set_state_notify",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10051,
+    "name": "vampire_survivor_new_season_notify",
+    "message": "proto.UI32",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10052,
+    "name": "order_collected_notify",
+    "message": "proto.OrderCollected",
+    "file": "notify.proto",
+    "fields": 2
+  },
+  {
+    "id": 10053,
+    "name": "activity_end_item_change_notify",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10054,
+    "name": "item_expired_change_notify",
+    "message": "proto.ItemTpl",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 10055,
+    "name": "milkout_character_unlock_notify",
+    "message": "proto.MilkoutCharacterUnlockNotify",
+    "file": "notify.proto",
+    "fields": 3
+  },
+  {
+    "id": 10056,
+    "name": "activity_double_reward_times_notify",
+    "message": "proto.ActivityDoubleRewardTimesNotify",
+    "file": "notify.proto",
+    "fields": 4
+  },
+  {
+    "id": 10057,
+    "name": "trace_hunt_new_control_notify",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 10058,
+    "name": "trace_hunt_state_notify",
+    "message": "proto.TraceHuntState",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10060,
+    "name": "trace_hunt_item_change_notify",
+    "message": "proto.TraceHuntItem",
+    "file": "public.proto",
+    "fields": 6
+  },
+  {
+    "id": 10061,
+    "name": "score_boss_reset_score_notify",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 10062,
+    "name": "activity_returnee_state_notify",
+    "message": "proto.ActivityReturneeState",
+    "file": "public.proto",
+    "fields": 3
+  },
+  {
+    "id": 10063,
+    "name": "activity_returnee_quest_change_notify",
+    "message": "proto.Quest",
+    "file": "public.proto",
+    "fields": 6
+  },
+  {
+    "id": 10064,
+    "name": "dorm_room_unlock_notify",
+    "message": "proto.DormRoomUnlock",
+    "file": "public_dorm.proto",
+    "fields": 3
+  },
+  {
+    "id": 10065,
+    "name": "guide_mission_state_notify",
+    "message": "proto.GuideMissionState",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 10066,
+    "name": "activity_malllogin_rewards_notify",
+    "message": "proto.ActivityMallLogin",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 10067,
+    "name": "achievement_complete_notify",
+    "message": "proto.AchievementInfo",
+    "file": "public_dorm.proto",
+    "fields": 3
+  },
+  {
+    "id": 11001,
+    "name": "activity_mining_apply_req",
+    "message": "proto.ActivityMiningApplyReq",
+    "file": "activity_mining_apply.proto",
+    "fields": 2
+  },
+  {
+    "id": 11002,
+    "name": "activity_mining_apply_succeed_ack",
+    "message": "proto.ActivityMiningApplyResp",
+    "file": "activity_mining_apply.proto",
+    "fields": 3
+  },
+  {
+    "id": 11003,
+    "name": "activity_mining_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 11004,
+    "name": "activity_mining_dig_req",
+    "message": "proto.ActivityMiningDigReq",
+    "file": "activity_mining_dig.proto",
+    "fields": 3
+  },
+  {
+    "id": 11005,
+    "name": "activity_mining_dig_succeed_ack",
+    "message": "proto.ActivityMiningDigResp",
+    "file": "activity_mining_dig.proto",
+    "fields": 3
+  },
+  {
+    "id": 11006,
+    "name": "activity_mining_dig_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 11007,
+    "name": "activity_mining_move_to_next_layer_req",
+    "message": "proto.ActivityMiningMoveToNextLayerReq",
+    "file": "activity_mining_move_to_next_layer.proto",
+    "fields": 2
+  },
+  {
+    "id": 11008,
+    "name": "activity_mining_move_to_next_layer_succeed_ack",
+    "message": "proto.ActivityMiningMoveToNextLayerResp",
+    "file": "activity_mining_move_to_next_layer.proto",
+    "fields": 3
+  },
+  {
+    "id": 11009,
+    "name": "activity_mining_move_to_next_layer_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 11010,
+    "name": "activity_mining_story_reward_receive_req",
+    "message": "proto.ActivityMiningStoryRewardReceiveReq",
+    "file": "activity_mining_story_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 11011,
+    "name": "activity_mining_story_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 11012,
+    "name": "activity_mining_story_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 11013,
+    "name": "activity_mining_quest_reward_receive_req",
+    "message": "proto.ActivityMiningQuestRewardReceiveReq",
+    "file": "activity_mining_quest_reward_receive.proto",
+    "fields": 4
+  },
+  {
+    "id": 11014,
+    "name": "activity_mining_quest_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 11015,
+    "name": "activity_mining_quest_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 11101,
+    "name": "score_boss_apply_req",
+    "message": "proto.ScoreBossApplyReq",
+    "file": "score_boss_apply.proto",
+    "fields": 3
+  },
+  {
+    "id": 11102,
+    "name": "score_boss_apply_succeed_ack",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 11103,
+    "name": "score_boss_apply_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 11104,
+    "name": "score_boss_settle_req",
+    "message": "proto.ScoreBossSettleReq",
+    "file": "score_boss_settle.proto",
+    "fields": 8
+  },
+  {
+    "id": 11105,
+    "name": "score_boss_settle_succeed_ack",
+    "message": "proto.ScoreBossSettleResp",
+    "file": "score_boss_settle.proto",
+    "fields": 4
+  },
+  {
+    "id": 11106,
+    "name": "score_boss_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 11107,
+    "name": "score_boss_rank_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 11108,
+    "name": "score_boss_rank_succeed_ack",
+    "message": "proto.ScoreBossRankInfo",
+    "file": "score_boss_rank.proto",
+    "fields": 6
+  },
+  {
+    "id": 11109,
+    "name": "score_boss_rank_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 11110,
+    "name": "score_boss_star_reward_receive_req",
+    "message": "proto.ScoreBossStarRewardReceiveReq",
+    "file": "score_boss_star_reward_receive.proto",
+    "fields": 2
+  },
+  {
+    "id": 11111,
+    "name": "score_boss_star_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 11112,
+    "name": "score_boss_star_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 11113,
+    "name": "score_boss_info_req",
+    "message": "proto.Nil",
+    "file": "public.proto",
+    "fields": 1
+  },
+  {
+    "id": 11114,
+    "name": "score_boss_info_succeed_ack",
+    "message": "proto.ScoreBossInfo",
+    "file": "score_boss_info.proto",
+    "fields": 6
+  },
+  {
+    "id": 11115,
+    "name": "score_boss_info_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 11201,
+    "name": "activity_cookie_settle_req",
+    "message": "proto.ActivityCookieSettleReq",
+    "file": "activity_cookie_settle.proto",
+    "fields": 10
+  },
+  {
+    "id": 11202,
+    "name": "activity_cookie_settle_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 11203,
+    "name": "activity_cookie_settle_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  },
+  {
+    "id": 11204,
+    "name": "activity_cookie_quest_reward_receive_req",
+    "message": "proto.ActivityCookieQuestRewardReceiveReq",
+    "file": "activity_cookie_quest_reward_receive.proto",
+    "fields": 3
+  },
+  {
+    "id": 11205,
+    "name": "activity_cookie_quest_reward_receive_succeed_ack",
+    "message": "proto.ChangeInfo",
+    "file": "public.proto",
+    "fields": 2
+  },
+  {
+    "id": 11206,
+    "name": "activity_cookie_quest_reward_receive_failed_ack",
+    "message": "proto.Error",
+    "file": "public.proto",
+    "fields": 5
+  }
+]

@@ -1,0 +1,18 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message GuideMissionInfo {
+  repeated .proto.GuideMissionChapter Chapters = 1;
+  bytes NextPackage = 2047;
+}
+
+message GuideMissionChapter {
+  uint32 Id = 1;
+  int64 UnlockTime = 2;
+  .proto.Quests Quests = 3;
+  bool Done = 4;
+  bytes NextPackage = 2047;
+}

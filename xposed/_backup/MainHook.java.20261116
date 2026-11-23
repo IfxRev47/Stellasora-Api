@@ -1,0 +1,207 @@
+package com.bluearchive.cn;
+
+import android.app.Activity;
+import android.graphics.Color;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import java.lang.reflect.Method;
+
+import de.robv.android.xposed.IXposedHookLoadPackage;
+import de.robv.android.xposed.XC_MethodHook;
+import de.robv.android.xposed.XposedBridge;
+import de.robv.android.xposed.XposedHelpers;
+import de.robv.android.xposed.callbacks.XC_LoadPackage;
+
+public class MainHook implements IXposedHookLoadPackage {
+    private static final String TAG = "ChxRe";
+    private static final String GAME_PKG = "com.RoamingStar.BlueArchive";
+    private static final String BRIDGE_GO = "TechSDKBridge";
+    private static final String BRIDGE_METHOD = "CallBack";
+
+    // 记住上次输入，面板重建时回填
+    private static String sLastUid = "1234567";
+    private static String sLastToken = "my-session-token";
+
+    @Override
+    public void handleLoadPackage(XC_LoadPackage.LoadPackageParam lpparam) {
+        if (!lpparam.packageName.equals(GAME_PKG)) return;
+        System.loadLibrary("cn");
+        hookSdkUrl(lpparam);
+        hookUnityActivity(lpparam);
+    }
+
+    // ---------- 原有：改 SDK 服务器地址 ----------
+    private void hookSdkUrl(XC_LoadPackage.LoadPackageParam lpparam) {
+        XposedHelpers.findAndHookMethod(
+                "com.airi.common.services.SDKConfigManager",
+                lpparam.classLoader,
+                "getSdkUrl",
+                new XC_MethodHook() {
+                    @Override
+                    protected void afterHookedMethod(MethodHookParam param) {
+                        Object result = param.getResult();
+                        Log.d(TAG, "getSdkUrl returned: " + result);
+                        param.setResult("http://10.0.0.209:8964");
+                    }
+                }
+        );
+    }
+
+    // ---------- 悬浮窗：注入到 Unity 主 Activity ----------
+    private void hookUnityActivity(XC_LoadPackage.LoadPackageParam lpparam) {
+        XposedHelpers.findAndHookMethod(
+                "com.unity3d.player.UnityPlayerActivity",
+                lpparam.classLoader,
+                "onResume",
+                new XC_MethodHook() {
+                    @Override
+                    protected void afterHookedMethod(MethodHookParam param) {
+                        Activity act = (Activity) param.thisObject;
+                        if (act.getWindow() == null) return;
+                        View root = act.getWindow().getDecorView();
+                        if (root.findViewWithTag("BA_LOGIN_PANEL") == null) {
+                            attachPanel(act);
+                        }
+                    }
+                }
+        );
+    }
+
+    private void attachPanel(Activity act) {
+        try {
+            act.runOnUiThread(() -> {
+                try {
+                    final LinearLayout panel = buildPanel(act);
+                    panel.setTag("BA_LOGIN_PANEL");
+                    act.getWindow().addContentView(panel,
+                            new ViewGroup.LayoutParams(
+                                    ViewGroup.LayoutParams.WRAP_CONTENT,
+                                    ViewGroup.LayoutParams.WRAP_CONTENT));
+                    Log.d(TAG, "login panel attached");
+                } catch (Throwable t) {
+                    Log.e(TAG, "attachPanel fail", t);
+                }
+            });
+        } catch (Throwable t) {
+            Log.e(TAG, "attachPanel fail", t);
+        }
+    }
+
+    private LinearLayout buildPanel(final Activity act) {
+        final LinearLayout panel = new LinearLayout(act);
+        panel.setOrientation(LinearLayout.VERTICAL);
+        panel.setPadding(24, 24, 24, 24);
+        panel.setBackgroundColor(0xE0333333);
+        panel.setAlpha(0.92f);
+
+        // 标题（拖动手柄）
+        final TextView title = new TextView(act);
+        title.setText("BA 测试登录 (拖动移动)");
+        title.setTextColor(Color.WHITE);
+        title.setTextSize(14);
+        panel.addView(title);
+
+        final EditText uid = new EditText(act);
+        uid.setHint("LOGIN_UID");
+        uid.setText(sLastUid);
+        uid.setTextColor(Color.WHITE);
+        uid.setHintTextColor(0xFF888888);
+        uid.setTextSize(13);
+        panel.addView(uid);
+
+        final EditText token = new EditText(act);
+        token.setHint("LOGIN_TOKEN");
+        token.setText(sLastToken);
+        token.setTextColor(Color.WHITE);
+        token.setHintTextColor(0xFF888888);
+        token.setTextSize(13);
+        panel.addView(token);
+
+        Button send = new Button(act);
+        send.setText("发送 OnLoginNotify");
+        send.setOnClickListener(v -> {
+            sLastUid = uid.getText().toString().trim();
+            sLastToken = token.getText().toString().trim();
+            boolean ok = sendFakeLogin(act, sLastUid, sLastToken);
+            toast(act, ok ? "已发送 CallBack" : "发送失败，看 logcat");
+        });
+        panel.addView(send);
+
+        Button hide = new Button(act);
+        hide.setText("隐藏面板 (恢复: 重进本界面)");
+        hide.setOnClickListener(v -> {
+            ViewGroup parent = (ViewGroup) panel.getParent();
+            if (parent != null) parent.removeView(panel);
+        });
+        panel.addView(hide);
+
+        // 拖动
+        DragHelper.attach(act, panel, title);
+
+        return panel;
+    }
+
+    private void toast(Activity act, String msg) {
+        try {
+            Toast.makeText(act, msg, Toast.LENGTH_SHORT).show();
+        } catch (Throwable ignored) {
+        }
+    }
+
+    // ---------- 核心：伪造 SDK 登录回调 ----------
+    private boolean sendFakeLogin(Activity act, String uid, String token) {
+        String json = "{\"METHOD\":\"OnLoginNotify\",\"R_CODE\":0,\"R_MSG\":\"OK\","
+                + "\"LOGIN_UID\":\"" + escape(uid) + "\","
+                + "\"LOGIN_TOKEN\":\"" + escape(token) + "\","
+                + "\"LOGIN_NAME\":\"" + escape(uid) + "\","
+                + "\"LOGIN_PLATFORM\":1,"
+                + "\"CHANNEL\":\"official\",\"SUB_CHANNEL\":\"\"}";
+        Log.d(TAG, "send CallBack: " + json);
+        try {
+            Class<?> up = Class.forName("com.unity3d.player.UnityPlayer",
+                    true, act.getClassLoader());
+            Method m = up.getMethod("UnitySendMessage",
+                    String.class, String.class, String.class);
+            m.invoke(null, BRIDGE_GO, BRIDGE_METHOD, json);
+            return true;
+        } catch (Throwable t) {
+            Log.e(TAG, "UnitySendMessage fail", t);
+            return false;
+        }
+    }
+
+    private static String escape(String s) {
+        return s == null ? "" : s.replace("\\", "\\\\").replace("\"", "\\\"");
+    }
+
+    // ---------- 拖动实现（addContentView 无法用 WindowManager 偏移，直接平移视图） ----------
+    private static final class DragHelper {
+        static void attach(Activity act, final View panel, View handle) {
+            final float[] down = new float[2];
+            final float[] origin = new float[2];
+            handle.setOnTouchListener((v, e) -> {
+                switch (e.getActionMasked()) {
+                    case android.view.MotionEvent.ACTION_DOWN:
+                        down[0] = e.getRawX();
+                        down[1] = e.getRawY();
+                        origin[0] = panel.getTranslationX();
+                        origin[1] = panel.getTranslationY();
+                        return true;
+                    case android.view.MotionEvent.ACTION_MOVE:
+                        panel.setTranslationX(origin[0] + e.getRawX() - down[0]);
+                        panel.setTranslationY(origin[1] + e.getRawY() - down[1]);
+                        return true;
+                }
+                return false;
+            });
+        }
+    }
+}

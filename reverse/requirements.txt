@@ -1,0 +1,9 @@
+lz4
+xxtea
+xxhash
+protobuf
+unicorn
+pycryptodome
+cryptography
+# For capture-wireguard.ps1 / stella_mitm.py only:
+mitmproxy>=12.3.1

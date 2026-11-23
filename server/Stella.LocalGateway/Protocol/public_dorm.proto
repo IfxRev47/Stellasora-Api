@@ -1,0 +1,145 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message DormInfo {
+  repeated uint32 SkinList = 1;
+  repeated uint32 LayoutList = 2;
+  repeated uint32 SceneList = 3;
+  bytes NextPackage = 2047;
+}
+
+message DormRoomInfo {
+  uint32 DormRoomId = 1;
+  repeated .proto.FurnitureInfo FurnitureList = 2;
+  repeated .proto.DormRoleInfo RoleList = 3;
+  uint32 DiscId = 4;
+  string RoomName = 5;
+  uint32 RoomScene = 6;
+  int64 RestNameTime = 7;
+  bytes NextPackage = 2047;
+}
+
+message FurnitureInfo {
+  uint32 FurnitureId = 1;
+  uint32 X = 2;
+  uint32 Y = 3;
+  uint32 Z = 4;
+  uint32 Rotation = 5;
+  bytes NextPackage = 2047;
+}
+
+message DormRoleInfo {
+  uint32 RoleId = 1;
+  bool IsVisit = 2;
+  bool IsInvitationRole = 3;
+  bytes NextPackage = 2047;
+}
+
+message FurniturePresetInfo {
+  uint32 DormType = 1;
+  repeated .proto.FurnitureInfo FurnitureList = 2;
+  uint32 BuildId = 3;
+  string BuildName = 4;
+  int64 CreateTime = 15;
+  bytes NextPackage = 2047;
+}
+
+message DormBagInfo {
+  .proto.ItemTpl ItemTplInfo = 1;
+  bytes NextPackage = 2047;
+}
+
+message InvitationRoleInfo {
+  uint32 RoleId = 1;
+  bytes NextPackage = 2047;
+}
+
+message DormInfoData {
+  string DormName = 1;
+  uint32 LikeNum = 2;
+  uint32 DayVisitNum = 3;
+  uint32 VisitTotalNum = 4;
+  repeated uint32 rewardIds = 5;
+  .proto.UI32V TaskGroup = 6;
+  repeated .proto.AchievementInfo AchievementList = 7;
+  int64 RestNameTime = 8;
+  bytes NextPackage = 2047;
+}
+
+message DormFriendDetail {
+  uint64 uid = 1;
+  uint32 LikeNum = 2;
+  bool IsLike = 3;
+  string DormName = 4;
+  uint32 CollectionValue = 5;
+  bytes NextPackage = 2047;
+}
+
+message RoleInteraction {
+  uint32 DormRoomId = 1;
+  uint32 RoleId = 2;
+  bytes NextPackage = 2047;
+}
+
+message AffinityData {
+  .proto.AffinityInfo AffinityInfo = 1;
+  .proto.ItemTpl ItemInfo = 2;
+  bytes NextPackage = 2047;
+}
+
+message DormFriendInfo {
+  string DormName = 1;
+  bytes NextPackage = 2047;
+}
+
+message DormAffinityGiftInfo {
+  uint32 RoleId = 1;
+  uint32 SendGiftCnt = 2;
+  bytes NextPackage = 2047;
+}
+
+message test {
+  uint32 Test = 1;
+  bytes NextPackage = 2047;
+}
+
+message DormRoomBGMInfo {
+  uint32 DormRoomId = 1;
+  uint32 DiscId = 2;
+  bytes NextPackage = 2047;
+}
+
+message DormRoomUnlock {
+  uint32 DormRoomId = 1;
+  .proto.ChangeInfo ChangeInfo = 2;
+  bytes NextPackage = 2047;
+}
+
+message DormChangeDataInfo {
+  string DormName = 1;
+  uint32 LikeNum = 2;
+  uint32 DayVisitNum = 3;
+  uint32 VisitTotalNum = 4;
+  bytes NextPackage = 2047;
+}
+
+message DormHot {
+  uint32 CollectionValue = 1;
+  repeated .proto.NewbieInfo Newbies = 2;
+  bytes NextPackage = 2047;
+}
+
+message AchievementComplete {
+  .proto.ChangeInfo ChangeInfo = 1;
+  repeated .proto.AchievementInfo AchievementList = 2;
+  bytes NextPackage = 2047;
+}
+
+message AchievementInfo {
+  uint32 AchievementId = 1;
+  int64 CompleteTime = 2;
+  bytes NextPackage = 2047;
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string-array name="xposedscope" >
+        <item>com.RoamingStar.StellaSora</item>
+    </string-array>
+</resources>

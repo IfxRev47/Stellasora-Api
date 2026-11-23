@@ -1,0 +1,11 @@
+{
+  "Version": 149,
+  "Agent": [
+    {
+      "Name": "星塔旅人（本地）",
+      "Addr": "http://127.0.0.1:1989/agent-zone-1/",
+      "Status": 1,
+      "Zone": 1
+    }
+  ]
+}

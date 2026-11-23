@@ -1,0 +1,10 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message FriendDeleteReq {
+  uint64 UId = 1;
+  bytes NextPackage = 2047;
+}

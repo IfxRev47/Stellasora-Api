@@ -1,0 +1,12 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message ActivityPenguinCardEndlessLevelSaveReq {
+  uint32 LevelId = 1;
+  string Data = 2;
+  uint32 Score = 3;
+  bytes NextPackage = 2047;
+}

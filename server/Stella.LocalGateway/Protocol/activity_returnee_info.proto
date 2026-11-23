@@ -1,0 +1,50 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message ActivityReturneeInfoResp {
+  .proto.ActivityReturneeReunionInfo Reunion = 1;
+  .proto.ActivityReturneeLoginInfo Login = 2;
+  .proto.ActivityReturneeAvgInfo Avg = 3;
+  .proto.Quests Quests = 4;
+  .proto.ActivityReturneeQuestPointInfo QuestPoint = 5;
+  .proto.ActivityReturneeMallInfo MallInfo = 6;
+  bytes NextPackage = 2047;
+}
+
+message ActivityReturneeReunionInfo {
+  bool ReunionReward = 1;
+  bytes NextPackage = 2047;
+}
+
+message ActivityReturneeLoginInfo {
+  uint32 Receive = 1;
+  uint32 Actual = 2;
+  bytes NextPackage = 2047;
+}
+
+message ActivityReturneeAvgInfo {
+  bool Avg = 1;
+  bytes NextPackage = 2047;
+}
+
+message ActivityReturneeQuestPointInfo {
+  uint32 Point = 1;
+  bytes Received = 2;
+  bytes NextPackage = 2047;
+}
+
+message ActivityReturneeMallInfo {
+  repeated string Ids = 1;
+  .proto.ActivityReturneeCard Card = 2;
+  bytes NextPackage = 2047;
+}
+
+message ActivityReturneeCard {
+  string Id = 1;
+  uint32 Remaining = 2;
+  bool Received = 3;
+  bytes NextPackage = 2047;
+}

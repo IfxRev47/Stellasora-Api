@@ -1,0 +1,12 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message ActivityStoryApplyReq {
+  uint32 ActivityId = 1;
+  uint32 StoryId = 2;
+  .proto.UseBuild Build = 3;
+  bytes NextPackage = 2047;
+}

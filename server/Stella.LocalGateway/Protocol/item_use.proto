@@ -1,0 +1,31 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message PickItem {
+  uint64 Id = 1;
+  uint32 Tid = 2;
+  uint32 SelectTid = 3;
+  uint32 Qty = 4;
+  bytes NextPackage = 2047;
+}
+
+message PickItems {
+  repeated .proto.PickItem List = 1;
+  bytes NextPackage = 2047;
+}
+
+message UseItem {
+  repeated .proto.ItemInfo List = 1;
+  bytes NextPackage = 2047;
+}
+
+message ItemUseReq {
+  oneof Mode {
+    .proto.PickItems Pick = 1;
+    .proto.UseItem Use = 2;
+  }
+  bytes NextPackage = 2047;
+}

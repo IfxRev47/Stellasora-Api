@@ -1,0 +1,265 @@
+{
+  "Code": 200,
+  "Msg": "OK",
+  "Data": {
+    "AppConfig": {
+      "AppropriateAge": {
+        "Level": "18+",
+        "Msg": "《星塔旅人》游戏适龄提示\n1、本游戏是一款玩法简单的角色扮演游戏，适用于年满18周岁及以上的用户。\n2、本游戏基于架空的故事背景和幻想世界观，剧情简单且积极向上，没有基于真实历史和现实事件的改编内容。游戏玩法基于肢体操作，鼓励玩家通过训练达成目标。游戏中有少量自定义文字系统，该社交系统遵循相关法律法规进行管理。\n3、本游戏中有用户实名认证系统，对年满18周岁及以上的用户开放，使用18周岁以下的身份信息认证账号将无法进入游戏。"
+      },
+      "CBT": false,
+      "Captcha": {
+        "AppID": 0,
+        "Enable": false
+      },
+      "ChatSDKURL": "",
+      "DestroyUser": {
+        "Days": 15,
+        "Enable": true
+      },
+      "DetectionAddress": {
+        "Auto": {
+          "DNS": [
+            "http://10.0.0.209:1989/meta/serverlist.html",
+            "https://sdk-api.yostar.cn"
+          ],
+          "HTTP": [
+            "http://10.0.0.209:1989/meta/serverlist.html",
+            "https://sdk-api.yostar.cn"
+          ],
+          "MTR": [
+            "http://10.0.0.209:1989/meta/serverlist.html",
+            "https://sdk-api.yostar.cn"
+          ],
+          "PING": [
+            "http://10.0.0.209:1989/meta/serverlist.html",
+            "https://sdk-api.yostar.cn"
+          ],
+          "TCP": [
+            "http://10.0.0.209:1989/meta/serverlist.html",
+            "https://sdk-api.yostar.cn"
+          ]
+        },
+        "Enable": true,
+        "Internet": "https://www.baidu.com"
+      },
+      "EnableTextReview": true,
+      "NicknameReg": "^[A-Za-z0-9一-龥]{2,16}$",
+      "Passport": {
+        "AuthCodeCoolDownDays": 0,
+        "AuthCodeValidHour": 168,
+        "DestroyDays": 15,
+        "ModifyEmailDays": 30,
+        "ModifyMobileDays": 30,
+        "Prefix": "YS"
+      },
+      "PassportDestroy": {
+        "Enable": true,
+        "URL": "https://account.yostar.cn?func=destroy"
+      },
+      "PassportPopup": {
+        "Enable": false,
+        "Text": ""
+      },
+      "SLS": {
+        "AccessKeyID": "",
+        "AccessKeySecret": "",
+        "ENABLE": false
+      },
+      "Share": {
+        "CaptureScreen": {
+          "AutoCloseDelay": 0,
+          "Enabled": false
+        },
+        "PengYouQuan": {
+          "AppID": "",
+          "Enabled": false,
+          "UniversalLink": ""
+        },
+        "QQ": {
+          "AppID": "",
+          "Enabled": false,
+          "UniversalLink": ""
+        },
+        "Qzone": {
+          "AppID": "",
+          "Enabled": false,
+          "UniversalLink": ""
+        },
+        "Sort": null,
+        "WeiXin": {
+          "AppID": "",
+          "Enabled": false,
+          "UniversalLink": ""
+        },
+        "Weibo": {
+          "AppKey": "",
+          "Enabled": false,
+          "RedirectURL": "",
+          "UniversalLink": ""
+        }
+      },
+      "ThirdInfoShareList": "https://account.yostar.cn/cn-nova/shared_list",
+      "Version": {
+        "ChildPrivacyAgreement": "0.2",
+        "ErrorCode": "12.5",
+        "PassportPrivacyAgreement": "0.1",
+        "PassportUserAgreement": "0.1",
+        "PrivacyAgreement": "0.2",
+        "UserAgreement": "0.2",
+        "UserDestroy": "0.1"
+      },
+      "WechatAppID": "",
+      "WechatBind": {
+        "Enable": false,
+        "MiniProgramOriginalID": "",
+        "MiniProgramType": 0,
+        "MobileAppID": ""
+      }
+    },
+    "ChannelConfig": {
+      "Adjust": {
+        "AppID": "",
+        "Debug": false,
+        "Enable": false,
+        "EventTokens": {
+          "Dorm": "vq4okb",
+          "activity_battle": "m9s1cb",
+          "activity_story": "thrept",
+          "activity_tower_defense": "lp7fm2",
+          "add_friend": "8twn4g",
+          "authorizationlevel_10": "1t4eoh",
+          "authorizationlevel_20": "1tnod1",
+          "authorizationlevel_5": "fq8lnk",
+          "boss_rush": "pls5i7",
+          "chapter0_1_complete": "i0b43c",
+          "chapter0_2_complete": "iby4fp",
+          "chapter0_complete": "h2ywe2",
+          "chapter2_complete": "orx4nr",
+          "character_favor_story": "plao0n",
+          "confirm_order": "niguiz",
+          "daily_instance_battle": "h0i9d9",
+          "daily_mission_complete": "e57suj",
+          "equipment_instance_battle": "mtvqk9",
+          "first_gacha10": "neff0f",
+          "guaranteed5star_gacha10": "14dnex",
+          "infinity_tower_battle": "dcttnf",
+          "joint_drill_battle": "7f0lob",
+          "limited_disc_gacha10": "plwauu",
+          "limited_trekker_gacha10": "yykik0",
+          "main_story": "cji9fb",
+          "math_parkour": "qpkjf5",
+          "minigame_PenguinCard": "w74apg",
+          "newbie_tutorial": "fx0u1h",
+          "normal_tutorial": "1vebid",
+          "passsdk_account_bind": "qns19a",
+          "passsdk_account_create": "qy50ga",
+          "passsdk_clear_cache": "8l088y",
+          "passsdk_del_account": "mob5r0",
+          "passsdk_del_account_intention": "iuejmu",
+          "passsdk_err": "gucx19",
+          "passsdk_init": "gltabl",
+          "passsdk_role_info_upload": "qe50im",
+          "passsdk_second_retention": "ro3hed",
+          "passsdk_seventh_retention": "139uie",
+          "passsdk_user_login": "t9n8yq",
+          "passsdk_user_open_survey": "3e50xm",
+          "passsdk_user_paid_level": "1ig8ol",
+          "passsdk_user_pay_canceled": "vjgqy8",
+          "passsdk_user_pay_checkout": "un0u1w",
+          "passsdk_user_pay_failed": "8cxbm8",
+          "passsdk_user_pay_intention": "qmxcm2",
+          "passsdk_user_share": "vw5xwl",
+          "passsdk_user_share_intention": "esi9kq",
+          "passsdk_user_switch_account": "cse88s",
+          "personality_change": "shw5bs",
+          "purchase_click": "avnhsa",
+          "purchase_complete": "huf7sw",
+          "purchase_deluxebp": "suasqp",
+          "purchase_diamond": "x5ahyl",
+          "purchase_discmusic": "esibbu",
+          "purchase_launchdisc": "eac0b5",
+          "purchase_launchtrekker": "o64ajz",
+          "purchase_monthdiscvoucher": "fcmo50",
+          "purchase_monthlycard": "yejo5n",
+          "purchase_monthtrekkervoucher": "bwkjdd",
+          "purchase_newdiscpack": "nsm1fp",
+          "purchase_newtrekkerpack": "lki1zs",
+          "purchase_newtrekkerstandard": "j1alhs",
+          "purchase_skin": "1uliud",
+          "purchase_srtrekkerselect": "jdnu2i",
+          "purchase_standardbp": "s8d16z",
+          "purchase_starterpack": "wjsjqq",
+          "purchase_trekkercelebration": "sbhx6f",
+          "purchase_trekkerdessert": "9kgkd1",
+          "purchase_trekkerupgrade": "jcge84",
+          "purchase_weekdiscres": "b8t9fv",
+          "purchase_weektrekkerres": "2uim18",
+          "region_boss_battle": "qcsl9a",
+          "resource_fetch": "oe1iav",
+          "role_create": "xiwizs",
+          "role_login": "msxnvi",
+          "scrolling_banner_click": "3gxhrz",
+          "set_story": "ql0z2s",
+          "setting_choice": "tdiya8",
+          "skill_instance_battle": "kywjsp",
+          "standard_disc_gacha10": "7a7yw9",
+          "standard_trekker_gacha10": "w6xoer",
+          "star_tower": "3xba5b",
+          "traveler_duel_battle": "ret5xl",
+          "trial_battle": "3grg2b",
+          "week_boss": "dwr37x",
+          "ysdk_account_create": "yimfis",
+          "ysdk_del_account": "dlbhch",
+          "ysdk_del_account_intention": "zakuij",
+          "ysdk_err": "qo4nog",
+          "ysdk_init": "v32wb9",
+          "ysdk_role_info_upload": "vr4gzs",
+          "ysdk_user_login": "psim9y",
+          "ysdk_user_open_survey": "wvbzk1",
+          "ysdk_user_pay_canceled": "qnta18",
+          "ysdk_user_pay_checkout": "8x4g6e",
+          "ysdk_user_pay_failed": "n99xq6",
+          "ysdk_user_pay_intention": "ockxw2",
+          "ysdk_user_switch_account": "e23y7q"
+        }
+      },
+      "AiHelp": {
+        "DisplayType": "WebView",
+        "Enable": true,
+        "ServiceInterfaceURL": "",
+        "ServiceURL": "https://customer.yostar.net/"
+      },
+      "AntiAddiction": {
+        "Enable": true
+      },
+      "Debug": 0,
+      "JPush": {
+        "Debug": false,
+        "Key": ""
+      },
+      "Login": {
+        "Default": "mobile",
+        "EnableList": [
+          "mobile",
+          "taptap"
+        ]
+      },
+      "OneKeyLoginSecret": "",
+      "RejectQuitEnable": 0,
+      "Taptap": {
+        "ClientID": "9aeghiagor7hp43smv",
+        "ClientPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwp10sKQjAn+kxSxZebHBgl3Tuqjapxdtqzy68y2CPzELHVeBQpK6jPnHyjvZcpgsW3/Rr4hyzPsxMHp7akNRfkOy2jqEGl/2hDeYpSsvK4vw9triXz4DTLESpU+RWfTglf3LRHB76RJggcGw0Pt+QAItHlOMQH+9LBuWtnS+bcf2YD+kC4jTmvr2dB6i3dhyaorVuT2OfnTRDZREU0WauWdACWHyaUELwA/JfZW+ir88k++qEjxaq76avRXzfJ0SuA8lqJKRirBc4dgMLvpjpjy1mVV3us64fSyAYwqUFCFNT5HT4/MMCbD4YZs20pgT8sUG04kbxlA1qu6sIh2BHwIDAQAB",
+        "ClientToken": "",
+        "SilentLoginEnable": false
+      },
+      "Udata": {
+        "Enable": false,
+        "MSUAKey": "",
+        "TxDataSourceID": "",
+        "TxSDKKey": "",
+        "URL": "https://udata-api.open.yostar.net"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public_dorm.proto";
+
+message DormInfoListResp {
+  repeated .proto.DormRoomInfo DormList = 1;
+  .proto.DormInfoData DormInfo = 2;
+  repeated uint32 ReceivedRewardIds = 3;
+  repeated uint32 InteractionRoleIds = 4;
+  repeated .proto.DormAffinityGiftInfo AffinityGiftRoleInfos = 5;
+  bytes NextPackage = 2047;
+}

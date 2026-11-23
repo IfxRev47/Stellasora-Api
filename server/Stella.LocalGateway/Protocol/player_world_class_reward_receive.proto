@@ -1,0 +1,13 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message PlayerWorldClassRewardReq {
+  oneof Value {
+    uint32 Class = 1;
+    uint32 Stage = 2;
+  }
+  bytes NextPackage = 2047;
+}

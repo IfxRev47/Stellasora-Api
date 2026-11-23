@@ -1,0 +1,18 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+import public "public_star_tower.proto";
+
+message StarTowerBuildNoteModifyReq {
+  uint64 BuildId = 1;
+  .proto.ItemTpls NoteChange = 2;
+  bytes NextPackage = 2047;
+}
+
+message StarTowerBuildNoteModifyResp {
+  .proto.ChangeInfo Change = 1;
+  .proto.StarTowerBuildInfo Info = 2;
+  bytes NextPackage = 2047;
+}

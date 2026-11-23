@@ -1,0 +1,14 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message ActivityMathParkourLevelSettleReq {
+  uint32 ActivityId = 1;
+  uint32 LevelId = 2;
+  uint32 TotalScore = 3;
+  bool State = 4;
+  uint32 PropCount = 5;
+  bytes NextPackage = 2047;
+}

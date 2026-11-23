@@ -1,0 +1,14 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+import "mall_gem_order.proto";
+
+message MallPackageOrder {
+  oneof Resp {
+    .proto.ChangeInfo Change = 1;
+    .proto.OrderInfo Order = 2;
+  }
+  bytes NextPackage = 2047;
+}

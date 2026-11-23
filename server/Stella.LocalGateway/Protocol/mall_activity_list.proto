@@ -1,0 +1,16 @@
+// Reconstructed from the client FileDescriptorSet.
+syntax = "proto3";
+
+package proto;
+import public "public.proto";
+
+message MallActivityInfo {
+  string Id = 1;
+  bool Purchased = 2;
+  bytes NextPackage = 2047;
+}
+
+message MallActivityList {
+  repeated .proto.MallActivityInfo List = 1;
+  bytes NextPackage = 2047;
+}
